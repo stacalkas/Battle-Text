@@ -1,0 +1,176 @@
+/* Rose Jerky */
+
+// Variables
+$rj-font-path:                "../webfonts" !default;
+$rj-font-size-base:           16px !default;
+$rj-css-prefix:               rj !default;
+$rj-version:                  "2.0.0" !default;
+$rj-border-color:             #eee !default;
+$rj-inverse:                  #fff !default;
+$rj-li-width:                 2em !default;
+
+/*! Rose Jerky Icons #{$rj-version} */
+
+// Convenience function used to set content property
+@function rj-content($rj-var) {
+  @return unquote("\"#{ $rj-var }\"");
+}
+$rj-var-bs-grid: \f000;
+$rj-var-bs-block: \f001;
+$rj-var-bs-text: \f002;
+$rj-var-bs-outline: \f003;
+$rj-var-bs-gridper: \f004;
+
+$rj-var-ai-head-base: \f005;
+$rj-var-ai-head-faceplate: \f006;
+$rj-var-ai-head-eyes: \f007;
+$rj-var-ai-repulsor-light-fallout: \f008;
+$rj-var-ai-repulsor-base: \f009;
+$rj-var-ai-repulsor-color: \f010;
+$rj-var-ai-repulsor-light-main: \f011;
+
+$rj-var-hentai-txt: \f012;
+$rj-var-porn-girl: \f013;
+$rj-var-screwdriver: \f014;
+$rj-var-screwdriver-wrench: \f015;
+$rj-var-cpu: \f016;
+$rj-var-disc: \f017;
+$rj-var-fan: \f018;
+$rj-var-flash-drive: \f019;
+$rj-var-hdd: \f020;
+$rj-var-ssd: \f021;
+$rj-var-mobo: \f022;
+$rj-var-monitor-tower: \f023;
+$rj-var-tower: \f024;
+$rj-var-ram: \f025;
+$rj-var-odd: \f026;
+$rj-var-webcam: \f027;
+$rj-var-mouse: \f028;
+$rj-var-psu: \f029;
+$rj-var-gpu: \f030;
+$rj-var-cpu-cooler: \f031;
+$rj-var-router: \f032;
+$rj-var-drawing-tablet: \f033;
+$rj-var-unreal: \f034;
+$rj-var-torque: \f035;
+$rj-var-torque-shadow: \f036;
+$rj-var-shocker: \f037;
+$rj-var-amd: \f038;
+$rj-var-nvidia: \f039;
+$rj-var-intel: \f040;
+$rj-var-megadon-jaw: \f041;
+$rj-var-megadon-mouth: \f042;
+$rj-var-megadon-base: \f043;
+$rj-var-matsumoto: \f044;
+$rj-var-fsociety: \f045;
+
+// Core
+.#{$rj-css-prefix} {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+
+// Animated
+.#{$fa-css-prefix}-spin-ccw{
+     @extend .#{$fa-css-prefix}-spin;
+     animation-direction: reverse; 
+}
+.#{$fa-css-prefix}-pulse-ccw{
+     @extend .#{$fa-css-prefix}-pulse;
+     animation-direction: reverse; 
+}
+
+.#{$fa-css-prefix}-spin-ccw-flip-h {
+     animation: fa-spin-ccw-flip-h 2s infinite linear;
+   }
+   
+   .#{$fa-css-prefix}-pulse-ccw-flip-h {
+     animation: fa-spin-ccw-flip-h 1s infinite steps(8);
+   }
+   
+   @keyframes fa-spin-ccw-flip-h {
+     0% {
+          transform: rotate(360deg) scale(-1, 1);
+     }
+   
+     100% {
+          transform: rotate(0deg) scale(-1, 1);
+     }
+   }
+
+// Icons
+.#{$rj-css-prefix}-bs-grid:before { content: rj-content($rj-var-bs-grid); }
+.#{$rj-css-prefix}-bs-block:before { content: rj-content($rj-var-bs-block); }
+.#{$rj-css-prefix}-bs-text:before { content: rj-content($rj-var-bs-text); }
+.#{$rj-css-prefix}-bs-outline:before { content: rj-content($rj-var-bs-outline); }
+.#{$rj-css-prefix}-bs-gridper:before { content: rj-content($rj-var-bs-gridper); }
+
+.#{$rj-css-prefix}-ai-head-base:before { content: rj-content($rj-var-ai-head-base); }
+.#{$rj-css-prefix}-ai-head-faceplate:before { content: rj-content($rj-var-ai-head-faceplate); }
+.#{$rj-css-prefix}-ai-head-eyes:before { content: rj-content($rj-var-ai-head-eyes); }
+.#{$rj-css-prefix}-ai-repulsor-light-fallout:before { content: rj-content($rj-var-ai-repulsor-light-fallout); }
+.#{$rj-css-prefix}-ai-repulsor-base:before { content: rj-content($rj-var-ai-repulsor-base); }
+.#{$rj-css-prefix}-ai-repulsor-color:before { content: rj-content($rj-var-ai-repulsor-color); }
+.#{$rj-css-prefix}-ai-repulsor-light-main:before { content: rj-content($rj-var-ai-repulsor-light-main); }
+
+.#{$rj-css-prefix}-hentai-txt:before { content: rj-content($rj-var-hentai-txt); }
+.#{$rj-css-prefix}-porn-girl:before { content: rj-content($rj-var-porn-girl); }
+.#{$rj-css-prefix}-screwdriver:before { content: rj-content($rj-var-screwdriver); }
+.#{$rj-css-prefix}-screwdriver-wrench:before { content: rj-content($rj-var-screwdriver-wrench); }
+.#{$rj-css-prefix}-cpu:before { content: rj-content($rj-var-cpu); }
+.#{$rj-css-prefix}-disc:before { content: rj-content($rj-var-disc); }
+.#{$rj-css-prefix}-fan:before { content: rj-content($rj-var-fan); }
+.#{$rj-css-prefix}-flash-drive:before { content: rj-content($rj-var-flash-drive); }
+.#{$rj-css-prefix}-hdd:before { content: rj-content($rj-var-hdd); }
+.#{$rj-css-prefix}-ssd:before { content: rj-content($rj-var-ssd); }
+.#{$rj-css-prefix}-mobo:before { content: rj-content($rj-var-mobo); }
+.#{$rj-css-prefix}-monitor-tower:before { content: rj-content($rj-var-monitor-tower); }
+.#{$rj-css-prefix}-tower:before { content: rj-content($rj-var-tower); }
+.#{$rj-css-prefix}-ram:before { content: rj-content($rj-var-ram); }
+.#{$rj-css-prefix}-odd:before { content: rj-content($rj-var-odd); }
+.#{$rj-css-prefix}-webcam:before { content: rj-content($rj-var-webcam); }
+.#{$rj-css-prefix}-mouse:before { content: rj-content($rj-var-mouse); }
+.#{$rj-css-prefix}-psu:before { content: rj-content($rj-var-psu); }
+.#{$rj-css-prefix}-gpu:before { content: rj-content($rj-var-gpu); }
+.#{$rj-css-prefix}-cpu-cooler:before { content: rj-content($rj-var-cpu-cooler); }
+.#{$rj-css-prefix}-router:before { content: rj-content($rj-var-router); }
+.#{$rj-css-prefix}-drawing-tablet:before { content: rj-content($rj-var-drawing-tablet); }
+.#{$rj-css-prefix}-unreal:before { content: rj-content($rj-var-unreal); }
+.#{$rj-css-prefix}-torque:before { content: rj-content($rj-var-torque); }
+.#{$rj-css-prefix}-torque-shadow:before { content: rj-content($rj-var-torque-shadow); }
+.#{$rj-css-prefix}-shocker:before { content: rj-content($rj-var-shocker); }
+.#{$rj-css-prefix}-amd:before { content: rj-content($rj-var-amd); }
+.#{$rj-css-prefix}-nvidia:before { content: rj-content($rj-var-nvidia); }
+.#{$rj-css-prefix}-intel:before { content: rj-content($rj-var-intel); }
+.#{$rj-css-prefix}-megadon-jaw:before { content: rj-content($rj-var-megadon-jaw); }
+.#{$rj-css-prefix}-megadon-mouth:before { content: rj-content($rj-var-megadon-mouth); }
+.#{$rj-css-prefix}-megadon-base:before { content: rj-content($rj-var-megadon-base); }
+.#{$rj-css-prefix}-matsumoto:before { content: rj-content($rj-var-matsumoto); }
+.#{$rj-css-prefix}-fsociety:before { content: rj-content($rj-var-fsociety); }
+
+// Font
+@font-face {
+     font-family: 'RoseJerky';
+     font-style: normal;
+     font-weight: normal;
+     //src: url('#{$rj-font-path}/rosejerky-icons.eot');
+     //src: url('#{$rj-font-path}/rosejerky-icons.eot?#iefix') format('embedded-opentype'),
+     //url('#{$rj-font-path}/rosejerky-icons.woff2') format('woff2'),
+     //url('#{$rj-font-path}/rosejerky-icons.woff') format('woff'),
+     //url('#{$rj-font-path}/rosejerky-icons.ttf') format('truetype'),
+     //url('#{$rj-font-path}/rosejerky-icons.svg#fontawesome') format('svg');
+   
+     src: url('#{$rj-font-path}/rosejerky-icons.woff') format('woff'),
+     url('#{$rj-font-path}/rosejerky-icons.eot') format('embedded-opentype'),
+     url('#{$rj-font-path}/rosejerky-icons.ttf') format('truetype'),
+     url('#{$rj-font-path}/rosejerky-icons.svg') format('svg');
+   }
+   
+   .rj {
+     font-family: 'RoseJerky';
+   }
