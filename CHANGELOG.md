@@ -13,8 +13,13 @@ Battle Text is based on Font Awesome. https://fontawesome.com
 - change exampled page, readibility
 - change font awesome text to battle text references (should include main css file)
 - create minified battle text css file
-- done... add battle text logo
 - bt-clan-diamond-shark-p-1 should be added (Body color above eye)
+- svg and png files of "main" logos
+
+## [0.1.1] - 2018-03-02
+### Added
+- Readme file.
+- battle-text logo.
 
 ## [0.1.0] - 2018-02-26
 ### Added
