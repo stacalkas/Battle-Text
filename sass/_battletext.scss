@@ -4,7 +4,7 @@
 $bt-font-path:                "../webfonts" !default;
 $bt-font-size-base:           16px !default;
 $bt-css-prefix:               bt !default;
-$bt-version:                  "1.0.0" !default;
+$bt-version:                  "0.1.2" !default;
 $bt-border-color:             #eee !default;
 $bt-inverse:                  #fff !default;
 $bt-li-width:                 2em !default;
@@ -110,7 +110,7 @@ $bt-var-clans: \f090;
 $bt-var-clan-sea-fox: \f091;
 $bt-var-clan-sea-fox-n-1: \f092;
 $bt-var-clan-sea-fox-n-2: \f093;
-$bt-var-clan-diamond-shark-p-4: \f094;// Clan Diamond Shark body top
+$bt-var-clan-diamond-shark-p-1: \f094;// Clan Diamond Shark body top
 $bt-var-clan-smoke-jaguar: \f095;
 $bt-var-clan-smoke-jaguar-n-1: \f096;
 $bt-var-clan-smoke-jaguar-n-2: \f097;
@@ -408,6 +408,7 @@ $bt-var-battle-text: \f302; // Battle Text Logo
 .#{$bt-css-prefix}-clan-diamond-shark-n-2:before { content: bt-content($bt-var-clan-diamond-shark-n-2); }
 .#{$bt-css-prefix}-clan-diamond-shark-n-3:before { content: bt-content($bt-var-clan-diamond-shark-n-3); }
 .#{$bt-css-prefix}-clan-diamond-shark-n-4:before { content: bt-content($bt-var-clan-diamond-shark-n-4); }
+.#{$bt-css-prefix}-clan-diamond-shark-p-1:before { content: bt-content($bt-var-clan-diamond-shark-p-1); }
 .#{$bt-css-prefix}-clan-fire-mandrill:before { content: bt-content($bt-var-clan-fire-mandrill); }
 .#{$bt-css-prefix}-clan-fire-mandrill-n-1:before { content: bt-content($bt-var-clan-fire-mandrill-n-1); }
 .#{$bt-css-prefix}-clan-fire-mandrill-n-2:before { content: bt-content($bt-var-clan-fire-mandrill-n-2); }
@@ -455,7 +456,6 @@ $bt-var-battle-text: \f302; // Battle Text Logo
 .#{$bt-css-prefix}-clan-sea-fox:before { content: bt-content($bt-var-clan-sea-fox); }
 .#{$bt-css-prefix}-clan-sea-fox-n-1:before { content: bt-content($bt-var-clan-sea-fox-n-1); }
 .#{$bt-css-prefix}-clan-sea-fox-n-2:before { content: bt-content($bt-var-clan-sea-fox-n-2); }
-.#{$bt-css-prefix}-clan-diamond-shark-p-4:before { content: bt-content($bt-var-clan-diamond-shark-p-4); }
 .#{$bt-css-prefix}-clan-smoke-jaguar:before { content: bt-content($bt-var-clan-smoke-jaguar); }
 .#{$bt-css-prefix}-clan-smoke-jaguar-n-1:before { content: bt-content($bt-var-clan-smoke-jaguar-n-1); }
 .#{$bt-css-prefix}-clan-smoke-jaguar-n-2:before { content: bt-content($bt-var-clan-smoke-jaguar-n-2); }
@@ -573,6 +573,7 @@ $bt-var-battle-text: \f302; // Battle Text Logo
 .#{$bt-css-prefix}-mercenary-review-and-bonding-commission-n-2:before { content: bt-content($bt-var-mercenary-review-and-bonding-commission-n-2); }
 .#{$bt-css-prefix}-mercenary-review-and-bonding-commission-n-3:before { content: bt-content($bt-var-mercenary-review-and-bonding-commission-n-3); }
 .#{$bt-css-prefix}-mercenary-review-and-bonding-commission-n-4:before { content: bt-content($bt-var-mercenary-review-and-bonding-commission-n-4); }
+.#{$bt-css-prefix}-mercenary-review-and-bonding-commission-p-1:before { content: bt-content($bt-var-mercenary-review-and-bonding-commission-p-1); }
 .#{$bt-css-prefix}-northwind-highlanders:before { content: bt-content($bt-var-northwind-highlanders); }
 .#{$bt-css-prefix}-northwind-highlanders-n-1:before { content: bt-content($bt-var-northwind-highlanders-n-1); }
 .#{$bt-css-prefix}-northwind-highlanders-n-2:before { content: bt-content($bt-var-northwind-highlanders-n-2); }
@@ -617,7 +618,6 @@ $bt-var-battle-text: \f302; // Battle Text Logo
 .#{$bt-css-prefix}-steel-wolves-n-2:before { content: bt-content($bt-var-steel-wolves-n-2); }
 .#{$bt-css-prefix}-steel-wolves-n-3:before { content: bt-content($bt-var-steel-wolves-n-3); }
 .#{$bt-css-prefix}-steel-wolves-n-4:before { content: bt-content($bt-var-steel-wolves-n-4); }
-.#{$bt-css-prefix}-mercenary-review-and-bonding-commission-p-1:before { content: bt-content($bt-var-mercenary-review-and-bonding-commission-p-1); }
 .#{$bt-css-prefix}-steiner:before { content: bt-content($bt-var-steiner); }
 .#{$bt-css-prefix}-steiner-n-1:before { content: bt-content($bt-var-steiner-n-1); }
 .#{$bt-css-prefix}-stormhammers:before { content: bt-content($bt-var-stormhammers); }

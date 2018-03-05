@@ -5,16 +5,25 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 Battle Text - A Battletech / Mechwarrior icon font.
-Battle Text is based on Font Awesome. https://fontawesome.com
+Battle Text is based on [Font Awesome](https://fontawesome.com).
 
 ## [Unreleased]
-- change exampled colors
+- change example colors
 - fix other logos besides "main" logos
 - change exampled page, readibility
 - change font awesome text to battle text references (should include main css file)
 - create minified battle text css file
-- bt-clan-diamond-shark-p-1 should be added (Body color above eye)
-- svg and png files of "main" logos
+- svg with javascript?
+- add a, bt-circinus-federation-p-1, that overlays the spikes and ring, outside of the skull.
+
+## [0.1.2] - 2018-03-05
+### Added
+- Raw svg files of "main" logos.
+- Raw png files of "main" logos.
+
+### Fixed
+- bt-clan-diamond-shark-p-1 was incorrectly named.
+- battle text version number did not match changelog.
 
 ## [0.1.1] - 2018-03-02
 ### Added

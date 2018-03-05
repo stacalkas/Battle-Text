@@ -1,6 +1,6 @@
 /*!
- * Font Awesome Free 5.0.6 by @fontawesome - http://fontawesome.com
- * License - http://fontawesome.com/license (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ * Font Awesome Free 5.0.8 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
 .fa,
 .fas,
@@ -470,6 +470,10 @@ readers do not read off random characters that represent icons */
   content: "\f05e";
 }
 
+.fa-band-aid:before {
+  content: "\f462";
+}
+
 .fa-bandcamp:before {
   content: "\f2d5";
 }
@@ -616,6 +620,14 @@ readers do not read off random characters that represent icons */
 
 .fa-bowling-ball:before {
   content: "\f436";
+}
+
+.fa-box:before {
+  content: "\f466";
+}
+
+.fa-boxes:before {
+  content: "\f468";
 }
 
 .fa-braille:before {
@@ -898,6 +910,14 @@ readers do not read off random characters that represent icons */
   content: "\f328";
 }
 
+.fa-clipboard-check:before {
+  content: "\f46c";
+}
+
+.fa-clipboard-list:before {
+  content: "\f46d";
+}
+
 .fa-clock:before {
   content: "\f017";
 }
@@ -1098,6 +1118,10 @@ readers do not read off random characters that represent icons */
   content: "\f393";
 }
 
+.fa-dna:before {
+  content: "\f471";
+}
+
 .fa-dochub:before {
   content: "\f394";
 }
@@ -1108,6 +1132,14 @@ readers do not read off random characters that represent icons */
 
 .fa-dollar-sign:before {
   content: "\f155";
+}
+
+.fa-dolly:before {
+  content: "\f472";
+}
+
+.fa-dolly-flatbed:before {
+  content: "\f474";
 }
 
 .fa-dot-circle:before {
@@ -1360,6 +1392,10 @@ readers do not read off random characters that represent icons */
 
 .fa-firefox:before {
   content: "\f269";
+}
+
+.fa-first-aid:before {
+  content: "\f479";
 }
 
 .fa-first-order:before {
@@ -1724,6 +1760,10 @@ readers do not read off random characters that represent icons */
 
 .fa-hospital:before {
   content: "\f0f8";
+}
+
+.fa-hospital-symbol:before {
+  content: "\f47e";
 }
 
 .fa-hotjar:before {
@@ -2266,6 +2306,10 @@ readers do not read off random characters that represent icons */
   content: "\f3d8";
 }
 
+.fa-pallet:before {
+  content: "\f482";
+}
+
 .fa-paper-plane:before {
   content: "\f1d8";
 }
@@ -2352,6 +2396,10 @@ readers do not read off random characters that represent icons */
 
 .fa-pied-piper-pp:before {
   content: "\f1a7";
+}
+
+.fa-pills:before {
+  content: "\f484";
 }
 
 .fa-pinterest:before {
@@ -2654,6 +2702,10 @@ readers do not read off random characters that represent icons */
   content: "\f21a";
 }
 
+.fa-shipping-fast:before {
+  content: "\f48b";
+}
+
 .fa-shirtsinbulk:before {
   content: "\f214";
 }
@@ -2942,6 +2994,10 @@ readers do not read off random characters that represent icons */
   content: "\f2f1";
 }
 
+.fa-syringe:before {
+  content: "\f48e";
+}
+
 .fa-table:before {
   content: "\f0ce";
 }
@@ -3016,6 +3072,10 @@ readers do not read off random characters that represent icons */
 
 .fa-themeisle:before {
   content: "\f2b2";
+}
+
+.fa-thermometer:before {
+  content: "\f491";
 }
 
 .fa-thermometer-empty:before {
@@ -3330,8 +3390,16 @@ readers do not read off random characters that represent icons */
   content: "\f41f";
 }
 
+.fa-warehouse:before {
+  content: "\f494";
+}
+
 .fa-weibo:before {
   content: "\f18a";
+}
+
+.fa-weight:before {
+  content: "\f496";
 }
 
 .fa-weixin:before {
@@ -3479,7 +3547,7 @@ readers do not read off random characters that represent icons */
 }
 
 /* BattleText */
-/*! BattleText 1.0.0 */
+/*! BattleText 0.1.2 */
 .bt {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -3702,6 +3770,10 @@ readers do not read off random characters that represent icons */
   content: "\f046";
 }
 
+.bt-clan-diamond-shark-p-1:before {
+  content: "\f094";
+}
+
 .bt-clan-fire-mandrill:before {
   content: "\f047";
 }
@@ -3888,10 +3960,6 @@ readers do not read off random characters that represent icons */
 
 .bt-clan-sea-fox-n-2:before {
   content: "\f093";
-}
-
-.bt-clan-diamond-shark-p-4:before {
-  content: "\f094";
 }
 
 .bt-clan-smoke-jaguar:before {
@@ -4362,6 +4430,10 @@ readers do not read off random characters that represent icons */
   content: "\f211";
 }
 
+.bt-mercenary-review-and-bonding-commission-p-1:before {
+  content: "\f256";
+}
+
 .bt-northwind-highlanders:before {
   content: "\f212";
 }
@@ -4536,10 +4608,6 @@ readers do not read off random characters that represent icons */
 
 .bt-steel-wolves-n-4:before {
   content: "\f255";
-}
-
-.bt-mercenary-review-and-bonding-commission-p-1:before {
-  content: "\f256";
 }
 
 .bt-steiner:before {
