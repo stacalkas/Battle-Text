@@ -3546,8 +3546,8 @@ readers do not read off random characters that represent icons */
   width: auto;
 }
 
-/* BattleText */
-/*! BattleText 0.1.2 */
+/* Battle Text */
+/*! Battle Text 0.1.3 */
 .bt {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -4010,12 +4010,12 @@ readers do not read off random characters that represent icons */
   content: "\f106";
 }
 
-.bt-clan-star-adder-n-4:before {
-  content: "\f107";
-}
-
 .bt-clan-star-adder-p-1:before {
   content: "\f108";
+}
+
+.bt-clan-star-adder-p-2:before {
+  content: "\f107";
 }
 
 .bt-clan-steel-viper:before {
@@ -4594,19 +4594,19 @@ readers do not read off random characters that represent icons */
   content: "\f251";
 }
 
-.bt-steel-wolves-n-1:before {
+.bt-steel-wolves-p-2:before {
   content: "\f252";
 }
 
-.bt-steel-wolves-n-2:before {
+.bt-steel-wolves-p-1:before {
   content: "\f253";
 }
 
-.bt-steel-wolves-n-3:before {
+.bt-steel-wolves-n-1:before {
   content: "\f254";
 }
 
-.bt-steel-wolves-n-4:before {
+.bt-steel-wolves-n-2:before {
   content: "\f255";
 }
 
@@ -4774,15 +4774,15 @@ readers do not read off random characters that represent icons */
   content: "\f297";
 }
 
-.bt-word-of-blake-n-1:before {
+.bt-word-of-blake-p-2:before {
   content: "\f298";
 }
 
-.bt-word-of-blake-n-2:before {
+.bt-word-of-blake-n-1:before {
   content: "\f299";
 }
 
-.bt-word-of-blake-n-3:before {
+.bt-word-of-blake-n-2:before {
   content: "\f300";
 }
 

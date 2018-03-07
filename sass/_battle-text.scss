@@ -1,15 +1,15 @@
-/* BattleText */
+/* Battle Text */
 
 //\\ Variables //\\
 $bt-font-path:                "../webfonts" !default;
 $bt-font-size-base:           16px !default;
 $bt-css-prefix:               bt !default;
-$bt-version:                  "0.1.2" !default;
+$bt-version:                  "0.1.3" !default;
 $bt-border-color:             #eee !default;
 $bt-inverse:                  #fff !default;
 $bt-li-width:                 2em !default;
 
-/*! BattleText #{$bt-version} */
+/*! Battle Text #{$bt-version} */
 
 // Convenience function used to set content property
 @function bt-content($bt-var) {
@@ -123,7 +123,7 @@ $bt-var-clan-star-adder: \f103;
 $bt-var-clan-star-adder-n-1: \f104;
 $bt-var-clan-star-adder-n-2: \f105;
 $bt-var-clan-star-adder-n-3: \f106;
-$bt-var-clan-star-adder-n-4: \f107;
+$bt-var-clan-star-adder-p-2: \f107;
 $bt-var-clan-star-adder-p-1: \f108;
 $bt-var-clan-steel-viper: \f109;
 $bt-var-clan-steel-viper-n-1: \f110;
@@ -268,10 +268,10 @@ $bt-var-spirit-cats-n-1: \f248;
 $bt-var-star-league: \f249;
 $bt-var-star-league-n-1: \f250;
 $bt-var-steel-wolves: \f251;
-$bt-var-steel-wolves-n-1: \f252;
-$bt-var-steel-wolves-n-2: \f253;
-$bt-var-steel-wolves-n-3: \f254;
-$bt-var-steel-wolves-n-4: \f255;
+$bt-var-steel-wolves-p-2: \f252;
+$bt-var-steel-wolves-p-1: \f253;
+$bt-var-steel-wolves-n-1: \f254;
+$bt-var-steel-wolves-n-2: \f255;
 $bt-var-mercenary-review-and-bonding-commission-p-1: \f256; // MRBC arrows
 $bt-var-steiner: \f257;
 $bt-var-steiner-n-1: \f258;
@@ -314,9 +314,9 @@ $bt-var-umbra-hounds-n-2: \f294;
 $bt-var-wolfs-dragoons: \f295;
 $bt-var-wolfs-dragoons-n-1: \f296;
 $bt-var-word-of-blake: \f297;
-$bt-var-word-of-blake-n-1: \f298;
-$bt-var-word-of-blake-n-2: \f299;
-$bt-var-word-of-blake-n-3: \f300;
+$bt-var-word-of-blake-p-2: \f298;
+$bt-var-word-of-blake-n-1: \f299;
+$bt-var-word-of-blake-n-2: \f300;
 $bt-var-word-of-blake-p-1: \f301;
 $bt-var-battle-text: \f302; // Battle Text Logo
 //$bt-var-armor-n-1: \f303;
@@ -468,8 +468,8 @@ $bt-var-battle-text: \f302; // Battle Text Logo
 .#{$bt-css-prefix}-clan-star-adder-n-1:before { content: bt-content($bt-var-clan-star-adder-n-1); }
 .#{$bt-css-prefix}-clan-star-adder-n-2:before { content: bt-content($bt-var-clan-star-adder-n-2); }
 .#{$bt-css-prefix}-clan-star-adder-n-3:before { content: bt-content($bt-var-clan-star-adder-n-3); }
-.#{$bt-css-prefix}-clan-star-adder-n-4:before { content: bt-content($bt-var-clan-star-adder-n-4); }
 .#{$bt-css-prefix}-clan-star-adder-p-1:before { content: bt-content($bt-var-clan-star-adder-p-1); }
+.#{$bt-css-prefix}-clan-star-adder-p-2:before { content: bt-content($bt-var-clan-star-adder-p-2); }
 .#{$bt-css-prefix}-clan-steel-viper:before { content: bt-content($bt-var-clan-steel-viper); }
 .#{$bt-css-prefix}-clan-steel-viper-n-1:before { content: bt-content($bt-var-clan-steel-viper-n-1); }
 .#{$bt-css-prefix}-clan-steel-viper-n-2:before { content: bt-content($bt-var-clan-steel-viper-n-2); }
@@ -614,10 +614,10 @@ $bt-var-battle-text: \f302; // Battle Text Logo
 .#{$bt-css-prefix}-star-league:before { content: bt-content($bt-var-star-league); }
 .#{$bt-css-prefix}-star-league-n-1:before { content: bt-content($bt-var-star-league-n-1); }
 .#{$bt-css-prefix}-steel-wolves:before { content: bt-content($bt-var-steel-wolves); }
+.#{$bt-css-prefix}-steel-wolves-p-2:before { content: bt-content($bt-var-steel-wolves-p-2); }
+.#{$bt-css-prefix}-steel-wolves-p-1:before { content: bt-content($bt-var-steel-wolves-p-1); }
 .#{$bt-css-prefix}-steel-wolves-n-1:before { content: bt-content($bt-var-steel-wolves-n-1); }
 .#{$bt-css-prefix}-steel-wolves-n-2:before { content: bt-content($bt-var-steel-wolves-n-2); }
-.#{$bt-css-prefix}-steel-wolves-n-3:before { content: bt-content($bt-var-steel-wolves-n-3); }
-.#{$bt-css-prefix}-steel-wolves-n-4:before { content: bt-content($bt-var-steel-wolves-n-4); }
 .#{$bt-css-prefix}-steiner:before { content: bt-content($bt-var-steiner); }
 .#{$bt-css-prefix}-steiner-n-1:before { content: bt-content($bt-var-steiner-n-1); }
 .#{$bt-css-prefix}-stormhammers:before { content: bt-content($bt-var-stormhammers); }
@@ -659,9 +659,9 @@ $bt-var-battle-text: \f302; // Battle Text Logo
 .#{$bt-css-prefix}-wolfs-dragoons:before { content: bt-content($bt-var-wolfs-dragoons); }
 .#{$bt-css-prefix}-wolfs-dragoons-n-1:before { content: bt-content($bt-var-wolfs-dragoons-n-1); }
 .#{$bt-css-prefix}-word-of-blake:before { content: bt-content($bt-var-word-of-blake); }
+.#{$bt-css-prefix}-word-of-blake-p-2:before { content: bt-content($bt-var-word-of-blake-p-2); }
 .#{$bt-css-prefix}-word-of-blake-n-1:before { content: bt-content($bt-var-word-of-blake-n-1); }
 .#{$bt-css-prefix}-word-of-blake-n-2:before { content: bt-content($bt-var-word-of-blake-n-2); }
-.#{$bt-css-prefix}-word-of-blake-n-3:before { content: bt-content($bt-var-word-of-blake-n-3); }
 .#{$bt-css-prefix}-word-of-blake-p-1:before { content: bt-content($bt-var-word-of-blake-p-1); }
 .#{$bt-css-prefix}-battle-text:before { content: bt-content($bt-var-battle-text); }
 //.#{$bt-css-prefix}-armor-n-1:before { content: bt-content($bt-var-armor-n-1); }
