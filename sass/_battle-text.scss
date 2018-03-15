@@ -4,7 +4,7 @@
 $bt-font-path:                "../webfonts" !default;
 $bt-font-size-base:           16px !default;
 $bt-css-prefix:               bt !default;
-$bt-version:                  "0.1.3" !default;
+$bt-version:                  "0.1.4" !default;
 $bt-border-color:             #eee !default;
 $bt-inverse:                  #fff !default;
 $bt-li-width:                 2em !default;
@@ -319,7 +319,11 @@ $bt-var-word-of-blake-n-1: \f299;
 $bt-var-word-of-blake-n-2: \f300;
 $bt-var-word-of-blake-p-1: \f301;
 $bt-var-battle-text: \f302; // Battle Text Logo
-//$bt-var-armor-n-1: \f303;
+$bt-var-clan-wolf-p-2: \f303;
+$bt-var-circinus-federation-p-1: \f304;
+$bt-var-clan-ghost-bear-p-2: \f305;
+$bt-var-clan-nova-cat-p-2: \f306;
+//$bt-var-armor-n-1: \f307;
 
 //\\ Core //\\
 .#{$bt-css-prefix} {
@@ -380,6 +384,7 @@ $bt-var-battle-text: \f302; // Battle Text Logo
 .#{$bt-css-prefix}-circinus-federation-n-3:before { content: bt-content($bt-var-circinus-federation-n-3); }
 .#{$bt-css-prefix}-circinus-federation-n-4:before { content: bt-content($bt-var-circinus-federation-n-4); }
 .#{$bt-css-prefix}-circinus-federation-n-5:before { content: bt-content($bt-var-circinus-federation-n-5); }
+.#{$bt-css-prefix}-circinus-federation-p-1:before { content: bt-content($bt-var-circinus-federation-p-1); }
 .#{$bt-css-prefix}-civil-war:before { content: bt-content($bt-var-civil-war); }
 .#{$bt-css-prefix}-civil-war-n-1:before { content: bt-content($bt-var-civil-war-n-1); }
 .#{$bt-css-prefix}-clan-blood-spirit:before { content: bt-content($bt-var-clan-blood-spirit); }
@@ -420,6 +425,7 @@ $bt-var-battle-text: \f302; // Battle Text Logo
 .#{$bt-css-prefix}-clan-ghost-bear-n-1:before { content: bt-content($bt-var-clan-ghost-bear-n-1); }
 .#{$bt-css-prefix}-clan-ghost-bear-n-2:before { content: bt-content($bt-var-clan-ghost-bear-n-2); }
 .#{$bt-css-prefix}-clan-ghost-bear-p-1:before { content: bt-content($bt-var-clan-ghost-bear-p-1); }
+.#{$bt-css-prefix}-clan-ghost-bear-p-2:before { content: bt-content($bt-var-clan-ghost-bear-p-2); }
 .#{$bt-css-prefix}-clan-goliath-scorpion:before { content: bt-content($bt-var-clan-goliath-scorpion); }
 .#{$bt-css-prefix}-clan-goliath-scorpion-n-1:before { content: bt-content($bt-var-clan-goliath-scorpion-n-1); }
 .#{$bt-css-prefix}-clan-goliath-scorpion-n-2:before { content: bt-content($bt-var-clan-goliath-scorpion-n-2); }
@@ -452,6 +458,7 @@ $bt-var-battle-text: \f302; // Battle Text Logo
 .#{$bt-css-prefix}-clan-nova-cat-n-2:before { content: bt-content($bt-var-clan-nova-cat-n-2); }
 .#{$bt-css-prefix}-clan-nova-cat-n-3:before { content: bt-content($bt-var-clan-nova-cat-n-3); }
 .#{$bt-css-prefix}-clan-nova-cat-p-1:before { content: bt-content($bt-var-clan-nova-cat-p-1); }
+.#{$bt-css-prefix}-clan-nova-cat-p-2:before { content: bt-content($bt-var-clan-nova-cat-p-2); }
 .#{$bt-css-prefix}-clans:before { content: bt-content($bt-var-clans); }
 .#{$bt-css-prefix}-clan-sea-fox:before { content: bt-content($bt-var-clan-sea-fox); }
 .#{$bt-css-prefix}-clan-sea-fox-n-1:before { content: bt-content($bt-var-clan-sea-fox-n-1); }
@@ -489,6 +496,7 @@ $bt-var-battle-text: \f302; // Battle Text Logo
 .#{$bt-css-prefix}-clan-wolf-n-2:before { content: bt-content($bt-var-clan-wolf-n-2); }
 .#{$bt-css-prefix}-clan-wolf-n-3:before { content: bt-content($bt-var-clan-wolf-n-3); }
 .#{$bt-css-prefix}-clan-wolf-p-1:before { content: bt-content($bt-var-clan-wolf-p-1); }
+.#{$bt-css-prefix}-clan-wolf-p-2:before { content: bt-content($bt-var-clan-wolf-p-2); }
 .#{$bt-css-prefix}-clan-wolverine:before { content: bt-content($bt-var-clan-wolverine); }
 .#{$bt-css-prefix}-clan-wolverine-n-1:before { content: bt-content($bt-var-clan-wolverine-n-1); }
 .#{$bt-css-prefix}-clan-wolverine-n-2:before { content: bt-content($bt-var-clan-wolverine-n-2); }

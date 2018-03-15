@@ -50,6 +50,10 @@
   color: #f2ef9d;
 }
 
+.bt-circinus-federation-p-1 {
+  color: #5871b9;
+}
+
 .bt-civil-war-n-1 {
   color: white;
 }
@@ -267,7 +271,7 @@
 }
 
 .bt-clan-nova-cat-n-1 {
-  color: #252525;
+  color: #666666;
 }
 
 .bt-clan-nova-cat-n-2 {
@@ -278,16 +282,12 @@
   color: gold;
 }
 
-.bt-clan-nova-cat-n-4 {
-  color: white;
-}
-
-.bt-clan-nova-cat-n-5 {
-  color: #787878;
-}
-
 .bt-clan-nova-cat-p-1 {
   color: #09529b;
+}
+
+.bt-clan-nova-cat-p-2 {
+  color: white;
 }
 
 .bt-clans {
@@ -475,7 +475,7 @@
 }
 
 .bt-escorpion-imperio-n-1 {
-  color: white;
+  color: #dcb556;
 }
 
 .bt-escorpion-imperio-n-2 {
@@ -723,7 +723,7 @@
 }
 
 .bt-republic-of-the-sphere-p-2 {
-  color: black;
+  color: #546591;
 }
 
 .bt-rhodes-project-n-1 {

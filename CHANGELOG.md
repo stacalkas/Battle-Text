@@ -8,30 +8,49 @@ Battle Text - A Battletech / Mechwarrior icon font.
 Battle Text is based on [Font Awesome](https://fontawesome.com).
 
 ## [Unreleased]
-- fix other logos besides "main" logos
-- change examples page, readibility
+- change examples page, readibility.
+- on examples page, display class names about logos.
 - change font awesome text to battle text references (should include main css file)
-- create minified battle text css file
-- svg with javascript?
-- add a, bt-circinus-federation-p-1, that overlays the spikes and ring, outside of the skull.
-- add a, bt-clan-ghost-bear-p-2, that overlays areas close by claws.
-- add a, bt-clan-nova-cat-n-4, that is white that colors the eyeballs and teeth. MAY have to be a positive layer!
-- add a, bt-clan-nova-cat-n-5, that is a grey color around the eyes, the nose, cheeks.
-- fix missing eye on two scorpion logos.
-- add a, bt-clan-wolf-p-2, that colors the "stars".
-- .bt-stormhammers-n-5 is missing the area at the bottom of the hand and the bottom of the handle.
+- create minified battle text css file.
+- create minified example colors css file.
+
+## [0.1.4] - 2018-03-14
+### Added
+- .bt-clan-wolf-p-2 logo.
+- .bt-circinus-federation-p-1 logo.
+- .bt-clan-ghost-bear-p-2 logo.
+- .bt-clan-nova-cat-p-2 logo.
+
+### Fixed
+- .bt-stormhammers-n-5 logo.
+- .bt-clan-goliath-scorpion logo.
+- .bt-clan-goliath-scorpion-n-1 logo.
+- clan-goliath-scorpion svg.
+- clan-goliath-scorpion png.
+- .bt-escorpion-imperio logo.
+- .bt-escorpion-imperio-n-1 logo.
+- .bt-escorpion-imperio-n-2 logo.
+- escorpion-imperio svg.
+- escorpion-imperio png.
+- .bt-highlanders-n-4 logo.
+- .bt-federated-commonwealth-n-4 logo.
+- .bt-republic-of-the-sphere logo.
+- .bt-republic-of-the-sphere-n-1 logo.
+- .bt-republic-of-the-sphere-n-2 logo.
+- .bt-republic-of-the-sphere-n-4 logo.
+- .bt-republic-of-the-sphere-p-2 logo.
 
 ## [0.1.3] - 2018-03-06
 ### Changed
 - Defined example colors.
-- .bt-clan-star-adder-n-4 to .bt-clan-star-adder-p-2.
-- .bt-steel-wolves-n-3 to .bt-steel-wolves-n-1.
-- .bt-steel-wolves-n-4 to .bt-steel-wolves-n-2.
-- .bt-steel-wolves-n-1 to .bt-steel-wolves-p-2.
-- .bt-steel-wolves-n-2 to .bt-steel-wolves-p-1.
-- .bt-word-of-blake-n-2 to .bt-word-of-blake-n-1.
-- .bt-word-of-blake-n-3 to .bt-word-of-blake-n-2.
-- .bt-word-of-blake-n-1 to .bt-word-of-blake-p-2.
+- .bt-clan-star-adder-n-4 logo to .bt-clan-star-adder-p-2 logo.
+- .bt-steel-wolves-n-3 logo to .bt-steel-wolves-n-1 logo.
+- .bt-steel-wolves-n-4 logo to .bt-steel-wolves-n-2 logo.
+- .bt-steel-wolves-n-1 logo to .bt-steel-wolves-p-2 logo.
+- .bt-steel-wolves-n-2 logo to .bt-steel-wolves-p-1 logo.
+- .bt-word-of-blake-n-2 logo to .bt-word-of-blake-n-1 logo.
+- .bt-word-of-blake-n-3 logo to .bt-word-of-blake-n-2 logo.
+- .bt-word-of-blake-n-1 logo to .bt-word-of-blake-p-2 logo.
 
 ### Fixed
 - .bt-swordsworn-n-5 logo was missing.
