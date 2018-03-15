@@ -1,7 +1,6 @@
-// Mixins
-// --------------------------
+//\\ BattleText Mixins //\\
 
-@mixin fa-icon {
+@mixin bt-icon {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: inline-block;
@@ -12,12 +11,12 @@
   vertical-align: -.125em;
 }
 
-@mixin fa-icon-rotate($degrees, $rotation) {
+@mixin bt-icon-rotate($degrees, $rotation) {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=#{$rotation})";
   transform: rotate($degrees);
 }
 
-@mixin fa-icon-flip($horiz, $vert, $rotation) {
+@mixin bt-icon-flip($horiz, $vert, $rotation) {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=#{$rotation}, mirror=1)";
   transform: scale($horiz, $vert);
 }

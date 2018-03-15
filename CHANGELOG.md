@@ -8,11 +8,42 @@ Battle Text - A Battletech / Mechwarrior icon font.
 Battle Text is based on [Font Awesome](https://fontawesome.com).
 
 ## [Unreleased]
-- change examples page, readibility.
-- on examples page, display class names about logos.
-- change font awesome text to battle text references (should include main css file)
-- create minified battle text css file.
-- create minified example colors css file.
+- on examples page, display class names above logos.
+- fix icons that I had to create a seperate illustrator file in order to export.
+- add github link after version variable.
+- add a proper license file.
+- add a note in readme about suggestions and/or comments.
+- re export republic of the sphere png
+- re export republic of the sphere svg
+- re export steel wolves png without border
+- re export steel wolves svg without border
+- re export battletech svg without border
+- re export dark age svg without border
+- re export highlanders svg icon is messed up
+
+## [0.1.5] - 2018-03-15
+### Added
+- battletext.min.css
+- example-colors.min.css
+
+### Changed
+- BREAKING Renamed fontawesome.scss to battletext.scss
+- BREAKING Renamed fontawesome.css to battletext.css
+- BREAKING Moved code sections from _battle-text.scss to their proper .scss files.
+- BREAKING renamed _battle-text.scss to _examples-page.scss
+- examples.html to reference battletext.css file.
+- Font Awesome classes in examples.html to new Battle Text classes.
+
+### Fixed
+- BattleText.eot file.
+
+### Removed
+- fontawesome.css file.
+- fa-brands.scss file.
+- fa-regular.scss file.
+- fa-solid.scss file.
+- font awesome files from webfonts.
+- BattleText.otf file.
 
 ## [0.1.4] - 2018-03-14
 ### Added

@@ -1,20 +1,46 @@
-// Animated Icons
-// --------------------------
+//\\ BattleText Animated //\\
 
-.#{$fa-css-prefix}-spin {
-  animation: fa-spin 2s infinite linear;
+.#{$bt-css-prefix}-spin{
+     animation: bt-spin 2s infinite linear;
 }
 
-.#{$fa-css-prefix}-pulse {
-  animation: fa-spin 1s infinite steps(8);
+.#{$bt-css-prefix}-pulse{
+     animation: bt-spin 1s infinite steps(8);
 }
 
-@keyframes fa-spin {
-  0% {
-    transform: rotate(0deg);
-  }
+@keyframes bt-spin{
+     0% {
+          transform: rotate(0deg);
+     }
 
-  100% {
-    transform: rotate(360deg);
-  }
+     100% {
+          transform: rotate(360deg);
+     }
+}
+
+.#{$bt-css-prefix}-spin-ccw{
+     @extend .#{$bt-css-prefix}-spin;
+     animation-direction: reverse; 
+}
+.#{$bt-css-prefix}-pulse-ccw{
+     @extend .#{$bt-css-prefix}-pulse;
+     animation-direction: reverse; 
+}
+
+.#{$bt-css-prefix}-spin-ccw-flip-h {
+     animation: bt-spin-ccw-flip-h 2s infinite linear;
+}
+   
+.#{$bt-css-prefix}-pulse-ccw-flip-h {
+     animation: bt-spin-ccw-flip-h 1s infinite steps(8);
+}
+   
+@keyframes bt-spin-ccw-flip-h {
+     0% {
+          transform: rotate(360deg) scale(-1, 1);
+     }
+   
+     100% {
+          transform: rotate(0deg) scale(-1, 1);
+     }
 }

@@ -1,18 +1,17 @@
-// List Icons
-// -------------------------
+//\\ BattleText List //\\
 
-.#{$fa-css-prefix}-ul {
+.#{$bt-css-prefix}-ul {
   list-style-type: none;
-  margin-left: $fa-li-width * 5/4;
+  margin-left: $bt-li-width * 5/4;
   padding-left: 0;
 
   > li { position: relative; }
 }
 
-.#{$fa-css-prefix}-li {
-  left: -$fa-li-width;
+.#{$bt-css-prefix}-li {
+  left: -$bt-li-width;
   position: absolute;
   text-align: center;
-  width: $fa-li-width;
+  width: $bt-li-width;
   line-height: inherit;
 }

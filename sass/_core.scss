@@ -1,16 +1,23 @@
-// Base Class Definition
-// -------------------------
-
-.#{$fa-css-prefix},
-.fas,
-.far,
-.fal,
-.fab {
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
-  line-height: 1;
+//\\ BattleText Core //\\
+.#{$bt-css-prefix} {
+     -moz-osx-font-smoothing: grayscale;
+     -webkit-font-smoothing: antialiased;
+     display: inline-block;
+     font-style: normal;
+     font-variant: normal;
+     text-rendering: auto;
+     line-height: 1;
 }
+
+@font-face {
+     font-family: 'BattleText';
+     font-style: normal;
+     font-weight: normal;
+   
+     src: url('#{$bt-font-path}/BattleText.eot') format('embedded-opentype'),
+     url('#{$bt-font-path}/BattleText.woff') format('woff'),
+     url('#{$bt-font-path}/BattleText.ttf') format('truetype'),
+     url('#{$bt-font-path}/BattleText.svg') format('svg');
+}
+   
+.bt {font-family: 'BattleText';}

@@ -1,0 +1,51 @@
+//\\ BattleText Examples Page //\\
+
+body{background-color: azure;}
+h1{text-align: center;}
+.battletext-example {
+     .bt{padding:1rem;}
+     i{font-size: 10rem;}
+
+     .bt-stack{
+          font-size: 4rem;
+          vertical-align: baseline; 
+          margin-right: 2rem; 
+     }
+
+     h2{
+          margin:0;
+          margin-left: 1rem;
+     }
+
+     section{
+          margin-bottom: 2rem;
+          padding-bottom: 2rem;
+          border: solid 0.1rem black;
+     }
+}
+
+.plusAndEquals{
+     font-size: 4rem;
+     vertical-align: baseline;
+     margin: 1rem;
+}
+
+.bt-main-logo-container{
+     text-align: center;
+
+     .bt-main-logo{
+          font-size: 10rem;
+     }
+}
+// .bt-p{
+//      margin:0;
+//      padding:0;
+//      display: inline;
+//      position: relative;
+//      left: 10rem;
+//      top: -7.5rem;
+// }
+// .bt-icon-complete{
+//      @extend .bt-p;
+//      border: 0.1rem red solid;
+// }
