@@ -13,13 +13,6 @@ Battle Text is based on [Font Awesome](https://fontawesome.com).
 - add github link after version variable.
 - add a proper license file.
 - add a note in readme about suggestions and/or comments.
-- re export republic of the sphere png
-- re export republic of the sphere svg
-- re export steel wolves png without border
-- re export steel wolves svg without border
-- re export battletech svg without border
-- re export dark age svg without border
-- re export highlanders svg icon is messed up
 
 ## [0.1.5] - 2018-03-15
 ### Added
@@ -33,9 +26,19 @@ Battle Text is based on [Font Awesome](https://fontawesome.com).
 - BREAKING renamed _battle-text.scss to _examples-page.scss
 - examples.html to reference battletext.css file.
 - Font Awesome classes in examples.html to new Battle Text classes.
+- .bt-steel-wolves-p-1 logo to .bt-steel-wolves-n-3 logo.
+- .bt-steel-wolves-p-2 logo to .bt-steel-wolves-n-4 logo.
 
 ### Fixed
 - BattleText.eot file.
+- .bt-steel-wolves logo.
+- steel-wolves.png
+- steel-wolves.svg
+- dark-age.svg
+- highlanders.svg
+- republic-of-the-sphere.svg
+- republic-of-the-sphere.png
+- batttletech.svg
 
 ### Removed
 - fontawesome.css file.
