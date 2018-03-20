@@ -4,15 +4,23 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
-Battle Text - A Battletech / Mechwarrior icon font.
-Battle Text is based on [Font Awesome](https://fontawesome.com).
+[Battle Text](https://github.com/stacalkas/Battle-Text) - A Battletech / Mechwarrior icon font.
+[Battle Text](https://github.com/stacalkas/Battle-Text) is based on [Font Awesome](https://fontawesome.com).
 
 ## [Unreleased]
-- on examples page, display class names above logos.
 - fix icons that I had to create a seperate illustrator file in order to export.
-- add github link after version variable.
-- add a proper license file.
 - add a note in readme about suggestions and/or comments.
+- add a link to "Webfonts with CSS" documentation of Font Awesome 5, to README.md
+
+## [0.1.6] - 2018-03-20
+### Added
+- Section, "Checklist before a release" to README.md
+- Github link to battletext.css
+- Class names above logos on examples.html
+
+### Changed
+- LICENSE.txt
+- Background of examples.html
 
 ## [0.1.5] - 2018-03-15
 ### Added

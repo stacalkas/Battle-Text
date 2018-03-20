@@ -2,14 +2,15 @@
 $bt-font-path:                "../webfonts" !default;
 $bt-font-size-base:           16px !default;
 $bt-css-prefix:               bt !default;
-$bt-version:                  "0.1.5" !default;
+$bt-version:                  "0.1.6" !default;
 $bt-border-color:             #eee !default;
 $bt-inverse:                  #fff !default;
 $bt-li-width:                 2em !default;
 
 /*!
- * Battle Text #{$bt-version} - https://github.com
- */
+* Battle Text #{$bt-version} - https://github.com/stacalkas/Battle-Text
+* License - An extension of the Font Awesome Free License https://fontawesome.com/license (Fonts: SIL OFL 1.1, Code: MIT License)
+*/
 
 // Convenience function used to set content property
 @function bt-content($bt-var) {

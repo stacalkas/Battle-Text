@@ -14,13 +14,27 @@ h1{text-align: center;}
 
      h2{
           margin:0;
-          margin-left: 1rem;
+          padding-left: 1rem;
+          background-color: white;
+     }
+
+     label{
+          background-color: silver;
+          padding: 0.25rem;
+          display: block;
+          margin-top: 0.5rem;
+          width: 75%;
+     }
+
+     .bt-logo-container{
+          display: inline-block;
      }
 
      section{
           margin-bottom: 2rem;
           padding-bottom: 2rem;
           border: solid 0.1rem black;
+          @include hazard-tape(0deg,rgb(241, 241, 241),0.25rem,rgb(180, 180, 180),0.25rem,0.5rem);
      }
 }
 
@@ -37,15 +51,3 @@ h1{text-align: center;}
           font-size: 10rem;
      }
 }
-// .bt-p{
-//      margin:0;
-//      padding:0;
-//      display: inline;
-//      position: relative;
-//      left: 10rem;
-//      top: -7.5rem;
-// }
-// .bt-icon-complete{
-//      @extend .bt-p;
-//      border: 0.1rem red solid;
-// }

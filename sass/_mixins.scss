@@ -54,3 +54,14 @@
     width: auto;
   }
 }
+
+// Hazard Tape
+@mixin hazard-tape($deg,$color1,$color1-width,$color2,$color2-width,$total-width){
+     background: repeating-linear-gradient(
+          $deg,
+          $color1,
+          $color1 $color1-width,
+          $color2 $color2-width,
+          $color2 $total-width
+     );
+}
