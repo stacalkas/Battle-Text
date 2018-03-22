@@ -9,8 +9,22 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 - fix icons that I had to create a seperate illustrator file in order to export.
-- add a note in readme about suggestions and/or comments.
-- add a link to "Webfonts with CSS" documentation of Font Awesome 5, to README.md
+- add basic "getting started" guide to readme.
+- add .bt-clan-cloud-cobra-n-5, this should fill the transparent space.
+- add .bt-clan-ghost-bear-n-3, this should fill the transparent space.
+- add .bt-death-from-above-n-1, this should fill the transparent space and expand slightly of logo border.
+- rename ..bt-periphery-states-n-1 to .bt-periphery-states-n-3
+- then add .bt-periphery-states-n-1, this should be eye sockets, nose socket, and teeth.
+- then add .bt-periphery-states-n-2, this is the headband.
+- add .bt-republic-of-the-sphere-n-5, this should be a background extending slightly past the outer text.
+- add "old" clan smoke jaguar logo.
+- decide if I need rename logos that are different versions of the same faction with "alt" or maybe "hbs".
+
+## [0.1.7] - 2018-03-22
+## Added
+- Link to Webfonts with CSS documentation of Font Awesome 5, to README.md
+- "Questions, Comments, and Icon Requests" section to README.md
+- Comment to reference Battle Text and Font Awesome in example-colors.css
 
 ## [0.1.6] - 2018-03-20
 ### Added
