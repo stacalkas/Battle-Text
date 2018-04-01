@@ -8,20 +8,80 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 [Battle Text](https://github.com/stacalkas/Battle-Text) is based on [Font Awesome](https://fontawesome.com).
 
 ## [Unreleased]
-- fix icons that I had to create a seperate illustrator file in order to export.
 - add basic "getting started" guide to readme.
-- add .bt-clan-cloud-cobra-n-5, this should fill the transparent space.
-- add .bt-clan-ghost-bear-n-3, this should fill the transparent space.
-- add .bt-death-from-above-n-1, this should fill the transparent space and expand slightly of logo border.
-- rename ..bt-periphery-states-n-1 to .bt-periphery-states-n-3
-- then add .bt-periphery-states-n-1, this should be eye sockets, nose socket, and teeth.
-- then add .bt-periphery-states-n-2, this is the headband.
-- add .bt-republic-of-the-sphere-n-5, this should be a background extending slightly past the outer text.
-- add "old" clan smoke jaguar logo.
-- decide if I need rename logos that are different versions of the same faction with "alt" or maybe "hbs".
+- fix .bt-classic-battlemech-mech-n-2 logo, by adding remaining holes.
+
+## [0.1.9] - 2018-04-01
+### Added
+- "top" button to examples.html
+- clan-smoke-jaguar-hbs svg and png.
+- .bt-smoke-jaguar-n-3 logo.
+- .bt-battletech-hbs-n-1 logo.
+- .bt-mechwarrior-dark-age-title logo.
+- .bt-mechwarrior-dark-age-title-n-1 logo.
+- .bt-mechwarrior-dark-age-title-n-2 logo.
+- .bt-mechwarrior-dark-age logo.
+- .bt-mechwarrior-dark-age-n-1 logo.
+- .bt-mechwarrior-dark-age-alt logo.
+- .bt-mechwarrior-dark-age-alt-n-1 logo.
+- .bt-mechwarrior-title-w-mech logo.
+- .bt-mechwarrior-title-w-mech-n-1 logo.
+- .bt-mechwarrior-title-w-mech-n-2 logo.
+- .bt-classic-battletech-mech logo.
+- .bt-classic-battletech-mech-n-1 logo.
+- .bt-classic-battletech-mech-n-2 logo.
+- .bt-aerospace-alt logo.
+- .bt-aerospace-alt-n-1 logo.
+- .bt-mech-alt logo.
+- .bt-mech-alt-n-1 logo.
+- .bt-conventional-vehicle logo.
+- .bt-conventional-vehicle-n-1 logo.
+- .bt-infantry-alt logo.
+- .bt-infantry-alt-n-1 logo.
+- mechwarrior-dark-age svg and png.
+- mechwarrior-dark-age-alt svg and png.
+- mechwarrior-dark-age-title svg and png.
+- mechwarrior-title-w-mech svg and png.
+- classic-battletech-mech logo svg and png.
+- aerospace-alt svg and png.
+- mech-alt svg and png.
+- conventional-vehicle svg and png.
+- infantry-alt svg and png.
+
+### Changed
+- clan-smoke-jaguar svg and png.
+- .bt-smoke-jaguar-n-1 logo.
+- .bt-smoke-jaguar-n-2 logo.
+- .bt-smoke-jaguar-p-1 logo.
+- .bt-battletech logo to .bt-battletech-hbs logo.
+- .bt-battletech-p-1 logo to .bt-battletech-hbs-p-1 logo.
+
+### Fixed
+- battletech png.
+
+## [0.1.8] - 2018-03-26
+### Added
+- .bt-clan-cloud-cobra-n-5 logo.
+- .bt-clan-ghost-bear-n-3 logo.
+- .bt-death-from-above-n-1 logo.
+- .bt-republic-of-the-sphere-n-5 logo.
+- new version of the .bt-periphery-states-n-1 logo.
+- .bt-periphery-states-n-2 logo.
+- new version of the .bt-clans logo.
+- .bt-clan-n-1 logo.
+- clans-hbs svg and clan-hbs png.
+
+### Changed
+- .bt-periphery-states-n-1 logo to .bt-periphery-states-n-3 logo.
+- .bt-clans logo to .bt-clans-hbs logo.
+- clans svg and png.
+- .bt-clan-smoke-jaguar logo to .bt-clan-smoke-jaguar-hbs logo.
+- .bt-clan-smoke-jaguar-n-1 logo to .bt-clan-smoke-jaguar-hbs-n-1 logo.
+- .bt-clan-smoke-jaguar-n-2 logo to .bt-clan-smoke-jaguar-hbs-n-2 logo.
+- .bt-clan-smoke-jaguar-p-1 logo to .bt-clan-smoke-jaguar-hbs-p-1 logo.
 
 ## [0.1.7] - 2018-03-22
-## Added
+### Added
 - Link to Webfonts with CSS documentation of Font Awesome 5, to README.md
 - "Questions, Comments, and Icon Requests" section to README.md
 - Comment to reference Battle Text and Font Awesome in example-colors.css

@@ -3,7 +3,7 @@
  * License - https://fontawesome.com/license (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
 /*!
-* Battle Text 0.1.7 - https://github.com/stacalkas/Battle-Text
+* Battle Text 0.1.9 - https://github.com/stacalkas/Battle-Text
 * License - An extension of the Font Awesome Free License https://fontawesome.com/license (Fonts: SIL OFL 1.1, Code: MIT License)
 */
 .bt {
@@ -232,20 +232,28 @@
 
 /* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
 readers do not read off random characters that represent icons */
-.bt-aerospace-n-1:before {
-  content: "\f001";
-}
-
 .bt-aerospace:before {
   content: "\f000";
 }
 
-.bt-armor-n-1:before {
-  content: "\f003";
+.bt-aerospace-n-1:before {
+  content: "\f001";
+}
+
+.bt-aerospace-alt:before {
+  content: "\f327";
+}
+
+.bt-aerospace-alt-n-1:before {
+  content: "\f328";
 }
 
 .bt-armor:before {
   content: "\f002";
+}
+
+.bt-armor-n-1:before {
+  content: "\f003";
 }
 
 .bt-bannsons-raiders:before {
@@ -260,11 +268,15 @@ readers do not read off random characters that represent icons */
   content: "\f006";
 }
 
-.bt-battletech:before {
+.bt-battletech-hbs:before {
   content: "\f007";
 }
 
-.bt-battletech-p-1:before {
+.bt-battletech-hbs-n-1:before {
+  content: "\f320";
+}
+
+.bt-battletech-hbs-p-1:before {
   content: "\f008";
 }
 
@@ -380,6 +392,10 @@ readers do not read off random characters that represent icons */
   content: "\f035";
 }
 
+.bt-clan-cloud-cobra-n-5:before {
+  content: "\f307";
+}
+
 .bt-clan-coyote:before {
   content: "\f036";
 }
@@ -466,6 +482,10 @@ readers do not read off random characters that represent icons */
 
 .bt-clan-ghost-bear-n-2:before {
   content: "\f056";
+}
+
+.bt-clan-ghost-bear-n-3:before {
+  content: "\f308";
 }
 
 .bt-clan-ghost-bear-p-1:before {
@@ -608,8 +628,16 @@ readers do not read off random characters that represent icons */
   content: "\f306";
 }
 
-.bt-clans:before {
+.bt-clans-hbs:before {
   content: "\f090";
+}
+
+.bt-clans:before {
+  content: "\f313";
+}
+
+.bt-clans-n-1:before {
+  content: "\f314";
 }
 
 .bt-clan-sea-fox:before {
@@ -624,20 +652,40 @@ readers do not read off random characters that represent icons */
   content: "\f093";
 }
 
-.bt-clan-smoke-jaguar:before {
+.bt-clan-smoke-jaguar-hbs:before {
   content: "\f095";
 }
 
-.bt-clan-smoke-jaguar-n-1:before {
+.bt-clan-smoke-jaguar-hbs-n-1:before {
   content: "\f096";
 }
 
-.bt-clan-smoke-jaguar-n-2:before {
+.bt-clan-smoke-jaguar-hbs-n-2:before {
   content: "\f097";
 }
 
-.bt-clan-smoke-jaguar-p-1:before {
+.bt-clan-smoke-jaguar-hbs-p-1:before {
   content: "\f098";
+}
+
+.bt-clan-smoke-jaguar:before {
+  content: "\f315";
+}
+
+.bt-clan-smoke-jaguar-n-1:before {
+  content: "\f316";
+}
+
+.bt-clan-smoke-jaguar-n-2:before {
+  content: "\f317";
+}
+
+.bt-clan-smoke-jaguar-n-3:before {
+  content: "\f318";
+}
+
+.bt-clan-smoke-jaguar-p-1:before {
+  content: "\f319";
 }
 
 .bt-clan-snow-raven:before {
@@ -776,12 +824,32 @@ readers do not read off random characters that represent icons */
   content: "\f131";
 }
 
+.bt-classic-battletech-mech:before {
+  content: "\f329";
+}
+
+.bt-classic-battletech-mech-n-1:before {
+  content: "\f330";
+}
+
+.bt-classic-battletech-mech-n-2:before {
+  content: "\f331";
+}
+
 .bt-comstar:before {
   content: "\f132";
 }
 
 .bt-comstar-n-1:before {
   content: "\f133";
+}
+
+.bt-conventional-vehicle:before {
+  content: "\f325";
+}
+
+.bt-conventional-vehicle-n-1:before {
+  content: "\f326";
 }
 
 .bt-dark-age:before {
@@ -830,6 +898,10 @@ readers do not read off random characters that represent icons */
 
 .bt-death-from-above-p-1:before {
   content: "\f145";
+}
+
+.bt-death-from-above-n-1:before {
+  content: "\f309";
 }
 
 .bt-dragons-fury:before {
@@ -972,6 +1044,14 @@ readers do not read off random characters that represent icons */
   content: "\f180";
 }
 
+.bt-infantry-alt:before {
+  content: "\f321";
+}
+
+.bt-infantry-alt-n-1:before {
+  content: "\f322";
+}
+
 .bt-jihad:before {
   content: "\f181";
 }
@@ -1076,6 +1156,54 @@ readers do not read off random characters that represent icons */
   content: "\f206";
 }
 
+.bt-mech-alt:before {
+  content: "\f323";
+}
+
+.bt-mech-alt-n-1:before {
+  content: "\f324";
+}
+
+.bt-mechwarrior-dark-age:before {
+  content: "\f335";
+}
+
+.bt-mechwarrior-dark-age-n-1:before {
+  content: "\f336";
+}
+
+.bt-mechwarrior-dark-age-alt:before {
+  content: "\f337";
+}
+
+.bt-mechwarrior-dark-age-alt-n-1:before {
+  content: "\f338";
+}
+
+.bt-mechwarrior-dark-age-title:before {
+  content: "\f339";
+}
+
+.bt-mechwarrior-dark-age-title-n-1:before {
+  content: "\f340";
+}
+
+.bt-mechwarrior-dark-age-title-n-2:before {
+  content: "\f341";
+}
+
+.bt-mechwarrior-title-w-mech:before {
+  content: "\f332";
+}
+
+.bt-mechwarrior-title-w-mech-n-1:before {
+  content: "\f333";
+}
+
+.bt-mechwarrior-title-w-mech-n-2:before {
+  content: "\f334";
+}
+
 .bt-mercenary-review-and-bonding-commission:before {
   content: "\f207";
 }
@@ -1145,6 +1273,14 @@ readers do not read off random characters that represent icons */
 }
 
 .bt-periphery-states-n-1:before {
+  content: "\f311";
+}
+
+.bt-periphery-states-n-2:before {
+  content: "\f312";
+}
+
+.bt-periphery-states-n-3:before {
   content: "\f223";
 }
 
@@ -1182,6 +1318,10 @@ readers do not read off random characters that represent icons */
 
 .bt-republic-of-the-sphere-n-4:before {
   content: "\f232";
+}
+
+.bt-republic-of-the-sphere-n-5:before {
+  content: "\f310";
 }
 
 .bt-republic-of-the-sphere-p-1:before {
@@ -1532,4 +1672,23 @@ h1 {
 }
 .bt-main-logo-container .bt-main-logo {
   font-size: 10rem;
+}
+
+.bt-to-top {
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: rgba(50, 50, 50, 0.9);
+  color: white;
+  position: fixed;
+  right: 0;
+  z-index: 2;
+  bottom: 2rem;
+  opacity: 0.66;
+  border-radius: 2rem;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  vertical-align: middle;
+}
+.bt-to-top:hover {
+  opacity: 1;
 }

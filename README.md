@@ -11,11 +11,11 @@ MechWarrior, BattleMech, ‘Mech and AeroTech are registered trademarks of The T
 
 ## Questions, Comments, and Icon Requests
 
-Questions and comments may be submitted to the [Battle Text](https://github.com/stacalkas/Battle-Text) issues section.
+Questions and comments may be submitted to the [Battle Text issues section](https://github.com/stacalkas/Battle-Text/issues).
 
 ### Icon Requests
 
-Icon requests may be submitted to the [Battle Text](https://github.com/stacalkas/Battle-Text) issues section.
+Icon requests may be submitted to the [Battle Text issues section](https://github.com/stacalkas/Battle-Text/issues).
 
 Please include the following, with your request:
 

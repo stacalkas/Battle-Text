@@ -2,7 +2,7 @@
 $bt-font-path:                "../webfonts" !default;
 $bt-font-size-base:           16px !default;
 $bt-css-prefix:               bt !default;
-$bt-version:                  "0.1.7" !default;
+$bt-version:                  "0.1.9" !default;
 $bt-border-color:             #eee !default;
 $bt-inverse:                  #fff !default;
 $bt-li-width:                 2em !default;
@@ -24,8 +24,8 @@ $bt-var-armor-n-1: \f003;
 $bt-var-bannsons-raiders: \f004;
 $bt-var-bannsons-raiders-n-1: \f005;
 $bt-var-bannsons-raiders-n-2: \f006;
-$bt-var-battletech: \f007;
-$bt-var-battletech-p-1: \f008;
+$bt-var-battletech-hbs: \f007;
+$bt-var-battletech-hbs-p-1: \f008;
 $bt-var-black-widow-company: \f009;
 $bt-var-black-widow-company-n-1: \f010;
 $bt-var-burrs-black-cobras: \f011;
@@ -107,15 +107,15 @@ $bt-var-clan-nova-cat-n-1: \f086;
 $bt-var-clan-nova-cat-n-2: \f087;
 $bt-var-clan-nova-cat-n-3: \f088;
 $bt-var-clan-nova-cat-p-1: \f089;
-$bt-var-clans: \f090;
+$bt-var-clans-hbs: \f090; // Clans HBS
 $bt-var-clan-sea-fox: \f091;
 $bt-var-clan-sea-fox-n-1: \f092;
 $bt-var-clan-sea-fox-n-2: \f093;
 $bt-var-clan-diamond-shark-p-1: \f094; // Clan Diamond Shark body top
-$bt-var-clan-smoke-jaguar: \f095;
-$bt-var-clan-smoke-jaguar-n-1: \f096;
-$bt-var-clan-smoke-jaguar-n-2: \f097;
-$bt-var-clan-smoke-jaguar-p-1: \f098;
+$bt-var-clan-smoke-jaguar-hbs: \f095;
+$bt-var-clan-smoke-jaguar-hbs-n-1: \f096;
+$bt-var-clan-smoke-jaguar-hbs-n-2: \f097;
+$bt-var-clan-smoke-jaguar-hbs-p-1: \f098;
 $bt-var-clan-snow-raven: \f099;
 $bt-var-clan-snow-raven-n-1: \f100;
 $bt-var-clan-snow-raven-n-2: \f101;
@@ -240,7 +240,7 @@ $bt-var-outworlds-alliance: \f219;
 $bt-var-outworlds-alliance-n-1: \f220;
 $bt-var-outworlds-alliance-n-2: \f221;
 $bt-var-periphery-states: \f222;
-$bt-var-periphery-states-n-1: \f223;
+$bt-var-periphery-states-n-3: \f223;
 $bt-var-raven-alliance: \f224;
 $bt-var-raven-alliance-n-1: \f225;
 $bt-var-raven-alliance-n-2: \f226;
@@ -324,4 +324,39 @@ $bt-var-clan-wolf-p-2: \f303; // Stars
 $bt-var-circinus-federation-p-1: \f304; // Spiked ring
 $bt-var-clan-ghost-bear-p-2: \f305; // Area around paws
 $bt-var-clan-nova-cat-p-2: \f306; // Eyeballs and teeth
-//$bt-var-armor-n-1: \f307;
+$bt-var-clan-cloud-cobra-n-5: \f307; // Lines outside of snake
+$bt-var-clan-ghost-bear-n-3: \f308; // Outline of "Pie Slices"
+$bt-var-death-from-above-n-1: \f309; // Color Atlas face and outline logo
+$bt-var-republic-of-the-sphere-n-5: \f310; // Background extending past outer text
+$bt-var-periphery-states-n-1: \f311; // Eyes, nose, and teeth
+$bt-var-periphery-states-n-2: \f312; // headband
+$bt-var-clans: \f313;
+$bt-var-clans-n-1: \f314;
+$bt-var-clan-smoke-jaguar: \f315;
+$bt-var-clan-smoke-jaguar-n-1: \f316;
+$bt-var-clan-smoke-jaguar-n-2: \f317;
+$bt-var-clan-smoke-jaguar-n-3: \f318;
+$bt-var-clan-smoke-jaguar-p-1: \f319;
+$bt-var-battletech-hbs-n-1: \f320; // Background
+$bt-var-infantry-alt: \f321;
+$bt-var-infantry-alt-n-1: \f322;
+$bt-var-mech-alt: \f323;
+$bt-var-mech-alt-n-1: \f324;
+$bt-var-conventional-vehicle: \f325;
+$bt-var-conventional-vehicle-n-1: \f326;
+$bt-var-aerospace-alt: \f327;
+$bt-var-aerospace-alt-n-1: \f328;
+$bt-var-classic-battletech-mech: \f329;
+$bt-var-classic-battletech-mech-n-1: \f330;
+$bt-var-classic-battletech-mech-n-2: \f331;
+$bt-var-mechwarrior-title-w-mech: \f332;
+$bt-var-mechwarrior-title-w-mech-n-1: \f333;
+$bt-var-mechwarrior-title-w-mech-n-2: \f334;
+$bt-var-mechwarrior-dark-age: \f335;
+$bt-var-mechwarrior-dark-age-n-1: \f336;
+$bt-var-mechwarrior-dark-age-alt: \f337;
+$bt-var-mechwarrior-dark-age-alt-n-1: \f338;
+$bt-var-mechwarrior-dark-age-title: \f339;
+$bt-var-mechwarrior-dark-age-title-n-1: \f340;
+$bt-var-mechwarrior-dark-age-title-n-2: \f341;
+//$bt-var-armor-n-1: \f342;

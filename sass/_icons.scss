@@ -3,15 +3,18 @@ readers do not read off random characters that represent icons */
 
 //\\ BattleText Icons //\\
 
-.#{$bt-css-prefix}-aerospace-n-1:before { content: bt-content($bt-var-aerospace-n-1); }
 .#{$bt-css-prefix}-aerospace:before { content: bt-content($bt-var-aerospace); }
-.#{$bt-css-prefix}-armor-n-1:before { content: bt-content($bt-var-armor-n-1); }
+.#{$bt-css-prefix}-aerospace-n-1:before { content: bt-content($bt-var-aerospace-n-1); }
+.#{$bt-css-prefix}-aerospace-alt:before { content: bt-content($bt-var-aerospace-alt); }
+.#{$bt-css-prefix}-aerospace-alt-n-1:before { content: bt-content($bt-var-aerospace-alt-n-1); }
 .#{$bt-css-prefix}-armor:before { content: bt-content($bt-var-armor); }
+.#{$bt-css-prefix}-armor-n-1:before { content: bt-content($bt-var-armor-n-1); }
 .#{$bt-css-prefix}-bannsons-raiders:before { content: bt-content($bt-var-bannsons-raiders); }
 .#{$bt-css-prefix}-bannsons-raiders-n-1:before { content: bt-content($bt-var-bannsons-raiders-n-1); }
 .#{$bt-css-prefix}-bannsons-raiders-n-2:before { content: bt-content($bt-var-bannsons-raiders-n-2); }
-.#{$bt-css-prefix}-battletech:before { content: bt-content($bt-var-battletech); }
-.#{$bt-css-prefix}-battletech-p-1:before { content: bt-content($bt-var-battletech-p-1); }
+.#{$bt-css-prefix}-battletech-hbs:before { content: bt-content($bt-var-battletech-hbs); }
+.#{$bt-css-prefix}-battletech-hbs-n-1:before { content: bt-content($bt-var-battletech-hbs-n-1); }
+.#{$bt-css-prefix}-battletech-hbs-p-1:before { content: bt-content($bt-var-battletech-hbs-p-1); }
 .#{$bt-css-prefix}-black-widow-company:before { content: bt-content($bt-var-black-widow-company); }
 .#{$bt-css-prefix}-black-widow-company-n-1:before { content: bt-content($bt-var-black-widow-company-n-1); }
 .#{$bt-css-prefix}-burrs-black-cobras:before { content: bt-content($bt-var-burrs-black-cobras); }
@@ -40,6 +43,7 @@ readers do not read off random characters that represent icons */
 .#{$bt-css-prefix}-clan-cloud-cobra-n-2:before { content: bt-content($bt-var-clan-cloud-cobra-n-2); }
 .#{$bt-css-prefix}-clan-cloud-cobra-n-3:before { content: bt-content($bt-var-clan-cloud-cobra-n-3); }
 .#{$bt-css-prefix}-clan-cloud-cobra-n-4:before { content: bt-content($bt-var-clan-cloud-cobra-n-4); }
+.#{$bt-css-prefix}-clan-cloud-cobra-n-5:before { content: bt-content($bt-var-clan-cloud-cobra-n-5); }
 .#{$bt-css-prefix}-clan-coyote:before { content: bt-content($bt-var-clan-coyote); }
 .#{$bt-css-prefix}-clan-coyote-n-1:before { content: bt-content($bt-var-clan-coyote-n-1); }
 .#{$bt-css-prefix}-clan-coyote-n-2:before { content: bt-content($bt-var-clan-coyote-n-2); }
@@ -62,6 +66,7 @@ readers do not read off random characters that represent icons */
 .#{$bt-css-prefix}-clan-ghost-bear:before { content: bt-content($bt-var-clan-ghost-bear); }
 .#{$bt-css-prefix}-clan-ghost-bear-n-1:before { content: bt-content($bt-var-clan-ghost-bear-n-1); }
 .#{$bt-css-prefix}-clan-ghost-bear-n-2:before { content: bt-content($bt-var-clan-ghost-bear-n-2); }
+.#{$bt-css-prefix}-clan-ghost-bear-n-3:before { content: bt-content($bt-var-clan-ghost-bear-n-3); }
 .#{$bt-css-prefix}-clan-ghost-bear-p-1:before { content: bt-content($bt-var-clan-ghost-bear-p-1); }
 .#{$bt-css-prefix}-clan-ghost-bear-p-2:before { content: bt-content($bt-var-clan-ghost-bear-p-2); }
 .#{$bt-css-prefix}-clan-goliath-scorpion:before { content: bt-content($bt-var-clan-goliath-scorpion); }
@@ -97,13 +102,20 @@ readers do not read off random characters that represent icons */
 .#{$bt-css-prefix}-clan-nova-cat-n-3:before { content: bt-content($bt-var-clan-nova-cat-n-3); }
 .#{$bt-css-prefix}-clan-nova-cat-p-1:before { content: bt-content($bt-var-clan-nova-cat-p-1); }
 .#{$bt-css-prefix}-clan-nova-cat-p-2:before { content: bt-content($bt-var-clan-nova-cat-p-2); }
+.#{$bt-css-prefix}-clans-hbs:before { content: bt-content($bt-var-clans-hbs); }
 .#{$bt-css-prefix}-clans:before { content: bt-content($bt-var-clans); }
+.#{$bt-css-prefix}-clans-n-1:before { content: bt-content($bt-var-clans-n-1); }
 .#{$bt-css-prefix}-clan-sea-fox:before { content: bt-content($bt-var-clan-sea-fox); }
 .#{$bt-css-prefix}-clan-sea-fox-n-1:before { content: bt-content($bt-var-clan-sea-fox-n-1); }
 .#{$bt-css-prefix}-clan-sea-fox-n-2:before { content: bt-content($bt-var-clan-sea-fox-n-2); }
+.#{$bt-css-prefix}-clan-smoke-jaguar-hbs:before { content: bt-content($bt-var-clan-smoke-jaguar-hbs); }
+.#{$bt-css-prefix}-clan-smoke-jaguar-hbs-n-1:before { content: bt-content($bt-var-clan-smoke-jaguar-hbs-n-1); }
+.#{$bt-css-prefix}-clan-smoke-jaguar-hbs-n-2:before { content: bt-content($bt-var-clan-smoke-jaguar-hbs-n-2); }
+.#{$bt-css-prefix}-clan-smoke-jaguar-hbs-p-1:before { content: bt-content($bt-var-clan-smoke-jaguar-hbs-p-1); }
 .#{$bt-css-prefix}-clan-smoke-jaguar:before { content: bt-content($bt-var-clan-smoke-jaguar); }
 .#{$bt-css-prefix}-clan-smoke-jaguar-n-1:before { content: bt-content($bt-var-clan-smoke-jaguar-n-1); }
 .#{$bt-css-prefix}-clan-smoke-jaguar-n-2:before { content: bt-content($bt-var-clan-smoke-jaguar-n-2); }
+.#{$bt-css-prefix}-clan-smoke-jaguar-n-3:before { content: bt-content($bt-var-clan-smoke-jaguar-n-3); }
 .#{$bt-css-prefix}-clan-smoke-jaguar-p-1:before { content: bt-content($bt-var-clan-smoke-jaguar-p-1); }
 .#{$bt-css-prefix}-clan-snow-raven:before { content: bt-content($bt-var-clan-snow-raven); }
 .#{$bt-css-prefix}-clan-snow-raven-n-1:before { content: bt-content($bt-var-clan-snow-raven-n-1); }
@@ -139,8 +151,13 @@ readers do not read off random characters that represent icons */
 .#{$bt-css-prefix}-clan-wolverine-n-1:before { content: bt-content($bt-var-clan-wolverine-n-1); }
 .#{$bt-css-prefix}-clan-wolverine-n-2:before { content: bt-content($bt-var-clan-wolverine-n-2); }
 .#{$bt-css-prefix}-clan-wolverine-n-3:before { content: bt-content($bt-var-clan-wolverine-n-3); }
+.#{$bt-css-prefix}-classic-battletech-mech:before { content: bt-content($bt-var-classic-battletech-mech); }
+.#{$bt-css-prefix}-classic-battletech-mech-n-1:before { content: bt-content($bt-var-classic-battletech-mech-n-1); }
+.#{$bt-css-prefix}-classic-battletech-mech-n-2:before { content: bt-content($bt-var-classic-battletech-mech-n-2); }
 .#{$bt-css-prefix}-comstar:before { content: bt-content($bt-var-comstar); }
 .#{$bt-css-prefix}-comstar-n-1:before { content: bt-content($bt-var-comstar-n-1); }
+.#{$bt-css-prefix}-conventional-vehicle:before { content: bt-content($bt-var-conventional-vehicle); }
+.#{$bt-css-prefix}-conventional-vehicle-n-1:before { content: bt-content($bt-var-conventional-vehicle-n-1); }
 .#{$bt-css-prefix}-dark-age:before { content: bt-content($bt-var-dark-age); }
 .#{$bt-css-prefix}-dark-age-n-1:before { content: bt-content($bt-var-dark-age-n-1); }
 .#{$bt-css-prefix}-dark-age-n-2:before { content: bt-content($bt-var-dark-age-n-2); }
@@ -153,6 +170,7 @@ readers do not read off random characters that represent icons */
 .#{$bt-css-prefix}-davion-n-5:before { content: bt-content($bt-var-davion-n-5); }
 .#{$bt-css-prefix}-death-from-above:before { content: bt-content($bt-var-death-from-above); }
 .#{$bt-css-prefix}-death-from-above-p-1:before { content: bt-content($bt-var-death-from-above-p-1); }
+.#{$bt-css-prefix}-death-from-above-n-1:before { content: bt-content($bt-var-death-from-above-n-1); }
 .#{$bt-css-prefix}-dragons-fury:before { content: bt-content($bt-var-dragons-fury); }
 .#{$bt-css-prefix}-dragons-fury-n-1:before { content: bt-content($bt-var-dragons-fury-n-1); }
 .#{$bt-css-prefix}-dragons-fury-n-2:before { content: bt-content($bt-var-dragons-fury-n-2); }
@@ -188,6 +206,8 @@ readers do not read off random characters that represent icons */
 .#{$bt-css-prefix}-house-cameron-n-2:before { content: bt-content($bt-var-house-cameron-n-2); }
 .#{$bt-css-prefix}-infantry:before { content: bt-content($bt-var-infantry); }
 .#{$bt-css-prefix}-infantry-n-1:before { content: bt-content($bt-var-infantry-n-1); }
+.#{$bt-css-prefix}-infantry-alt:before { content: bt-content($bt-var-infantry-alt); }
+.#{$bt-css-prefix}-infantry-alt-n-1:before { content: bt-content($bt-var-infantry-alt-n-1); }
 .#{$bt-css-prefix}-jihad:before { content: bt-content($bt-var-jihad); }
 .#{$bt-css-prefix}-jihad-n-1:before { content: bt-content($bt-var-jihad-n-1); }
 .#{$bt-css-prefix}-kell-hounds:before { content: bt-content($bt-var-kell-hounds); }
@@ -214,6 +234,18 @@ readers do not read off random characters that represent icons */
 .#{$bt-css-prefix}-marik-n-1:before { content: bt-content($bt-var-marik-n-1); }
 .#{$bt-css-prefix}-mech:before { content: bt-content($bt-var-mech); }
 .#{$bt-css-prefix}-mech-n-1:before { content: bt-content($bt-var-mech-n-1); }
+.#{$bt-css-prefix}-mech-alt:before { content: bt-content($bt-var-mech-alt); }
+.#{$bt-css-prefix}-mech-alt-n-1:before { content: bt-content($bt-var-mech-alt-n-1); }
+.#{$bt-css-prefix}-mechwarrior-dark-age:before { content: bt-content($bt-var-mechwarrior-dark-age); }
+.#{$bt-css-prefix}-mechwarrior-dark-age-n-1:before { content: bt-content($bt-var-mechwarrior-dark-age-n-1); }
+.#{$bt-css-prefix}-mechwarrior-dark-age-alt:before { content: bt-content($bt-var-mechwarrior-dark-age-alt); }
+.#{$bt-css-prefix}-mechwarrior-dark-age-alt-n-1:before { content: bt-content($bt-var-mechwarrior-dark-age-alt-n-1); }
+.#{$bt-css-prefix}-mechwarrior-dark-age-title:before { content: bt-content($bt-var-mechwarrior-dark-age-title); }
+.#{$bt-css-prefix}-mechwarrior-dark-age-title-n-1:before { content: bt-content($bt-var-mechwarrior-dark-age-title-n-1); }
+.#{$bt-css-prefix}-mechwarrior-dark-age-title-n-2:before { content: bt-content($bt-var-mechwarrior-dark-age-title-n-2); }
+.#{$bt-css-prefix}-mechwarrior-title-w-mech:before { content: bt-content($bt-var-mechwarrior-title-w-mech); }
+.#{$bt-css-prefix}-mechwarrior-title-w-mech-n-1:before { content: bt-content($bt-var-mechwarrior-title-w-mech-n-1); }
+.#{$bt-css-prefix}-mechwarrior-title-w-mech-n-2:before { content: bt-content($bt-var-mechwarrior-title-w-mech-n-2); }
 .#{$bt-css-prefix}-mercenary-review-and-bonding-commission:before { content: bt-content($bt-var-mercenary-review-and-bonding-commission); }
 .#{$bt-css-prefix}-mercenary-review-and-bonding-commission-n-1:before { content: bt-content($bt-var-mercenary-review-and-bonding-commission-n-1); }
 .#{$bt-css-prefix}-mercenary-review-and-bonding-commission-n-2:before { content: bt-content($bt-var-mercenary-review-and-bonding-commission-n-2); }
@@ -232,6 +264,8 @@ readers do not read off random characters that represent icons */
 .#{$bt-css-prefix}-outworlds-alliance-n-2:before { content: bt-content($bt-var-outworlds-alliance-n-2); }
 .#{$bt-css-prefix}-periphery-states:before { content: bt-content($bt-var-periphery-states); }
 .#{$bt-css-prefix}-periphery-states-n-1:before { content: bt-content($bt-var-periphery-states-n-1); }
+.#{$bt-css-prefix}-periphery-states-n-2:before { content: bt-content($bt-var-periphery-states-n-2); }
+.#{$bt-css-prefix}-periphery-states-n-3:before { content: bt-content($bt-var-periphery-states-n-3); }
 .#{$bt-css-prefix}-raven-alliance:before { content: bt-content($bt-var-raven-alliance); }
 .#{$bt-css-prefix}-raven-alliance-n-1:before { content: bt-content($bt-var-raven-alliance-n-1); }
 .#{$bt-css-prefix}-raven-alliance-n-2:before { content: bt-content($bt-var-raven-alliance-n-2); }
@@ -241,6 +275,7 @@ readers do not read off random characters that represent icons */
 .#{$bt-css-prefix}-republic-of-the-sphere-n-2:before { content: bt-content($bt-var-republic-of-the-sphere-n-2); }
 .#{$bt-css-prefix}-republic-of-the-sphere-n-3:before { content: bt-content($bt-var-republic-of-the-sphere-n-3); }
 .#{$bt-css-prefix}-republic-of-the-sphere-n-4:before { content: bt-content($bt-var-republic-of-the-sphere-n-4); }
+.#{$bt-css-prefix}-republic-of-the-sphere-n-5:before { content: bt-content($bt-var-republic-of-the-sphere-n-5); }
 .#{$bt-css-prefix}-republic-of-the-sphere-p-1:before { content: bt-content($bt-var-republic-of-the-sphere-p-1); }
 .#{$bt-css-prefix}-republic-of-the-sphere-p-2:before { content: bt-content($bt-var-republic-of-the-sphere-p-2); }
 .#{$bt-css-prefix}-rhodes-project:before { content: bt-content($bt-var-rhodes-project); }
