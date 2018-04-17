@@ -32,8 +32,10 @@ Please include the following, with your request:
 
 1. Update CHANGELOG.md
 
-2. Export all font types.
+2. Update version number.
 
-3. Update version number.
+3. Export all font types.
 
-4. Generate minified versions of battletext.css and example-colors.css
+4. Export multi-color and single-color logos to svg/png.
+
+5. Generate minified versions of battletext.css and example-colors.css

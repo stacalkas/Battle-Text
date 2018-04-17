@@ -8,8 +8,115 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 [Battle Text](https://github.com/stacalkas/Battle-Text) is based on [Font Awesome](https://fontawesome.com).
 
 ## [Unreleased]
-- add basic "getting started" guide to readme.
-- fix .bt-classic-battlemech-mech-n-2 logo, by adding remaining holes.
+Add
+- New version of terran-hegemony logo.
+- New version of outworlds-alliance logo.
+- New version of house-cameron logo.
+- New version of magistracy-of-canopus logo.
+- New version of taurian-concordat logo.
+- New version of marian-hegemony logo.
+- New version of rim-worlds-republic logo.
+- Basic getting started guide to readme.
+
+Fix
+- .bt-escorpion-imperio logo.
+- liao illustrator file is broken and won't save for some reason...
+
+## [0.2.0] - 2018-04-17
+### Added
+- Colored svg and png versions of all logos.
+- .bt-raven-alliance-n-4 logo.
+
+### Changed
+- Checklist before a release in README.md
+- .bt-terran-hegemony logo to .bt-terran-hegemony-hbs logo.
+- .bt-terran-hegemony-n-1 logo to .bt-terran-hegemony-hbs-n-1 logo.
+- .bt-terran-hegemony-n-2 logo to .bt-terran-hegemony-hbs-n-2 logo.
+- .bt-terran-hegemony-n-3 logo to .bt-terran-hegemony-hbs-n-3 logo.
+- .bt-terran-hegemony-n-4 logo to .bt-terran-hegemony-hbs-n-4 logo.
+- .bt-outworlds-alliance logo to .bt-outworlds-alliance-hbs logo.
+- .bt-outworlds-alliance-n-1 logo to .bt-outworlds-alliance-hbs-n-1 logo.
+- .bt-outworlds-alliance-n-2 logo to .bt-outworlds-alliance-hbs-n-2 logo.
+- .bt-house-cameron logo to .bt-house-cameron-hbs logo.
+- .bt-house-cameron-n-1 logo to .bt-house-cameron-hbs-n-1 logo.
+- .bt-house-cameron-n-2 logo to .bt-house-cameron-hbs-n-2 logo.
+- .bt-magistracy-of-canopus logo to .bt-magistracy-of-canopus-hbs logo.
+- .bt-magistracy-of-canopus-n-1 logo to .bt-magistracy-of-canopus-hbs-n-1 logo.
+- .bt-magistracy-of-canopus-n-2 logo to .bt-magistracy-of-canopus-hbs-n-2 logo.
+- .bt-magistracy-of-canopus-n-3 logo to .bt-magistracy-of-canopus-hbs-n-3 logo.
+- .bt-taurian-concordat logo to .bt-taurian-concordat-hbs logo.
+- .bt-taurian-concordat-n-1 logo to .bt-taurian-concordat-hbs-n-1 logo.
+- .bt-taurian-concordat-n-2 logo to .bt-taurian-concordat-hbs-n-2 logo.
+- .bt-taurian-concordat-n-3 logo to .bt-taurian-concordat-hbs-n-3 logo.
+- .bt-marian-hegemony logo to .bt-marian-hegemony-hbs logo.
+- .bt-marian-hegemony-n-1 logo to .bt-marian-hegemony-hbs-n-1 logo.
+- .bt-marian-hegemony-n-2 logo to .bt-marian-hegemony-hbs-n-2 logo.
+- .bt-rim-worlds-republic logo to .bt-rim-worlds-republic-hbs logo.
+- .bt-rim-worlds-republic-n-1 logo to .bt-rim-worlds-republic-hbs-n-1 logo.
+- .bt-rim-worlds-republic-n-2 logo to .bt-rim-worlds-republic-hbs-n-2 logo.
+- .bt-word-of-blake-p-2 logo to .bt-word-of-blake-n-3 logo.
+
+### Fixed
+- .bt-raven-alliance-n-3 logo.
+- .bt-brannsons-raiders-n-1 logo.
+- .bt-brannsons-raiders-n-2 logo.
+- .bt-clan-cloud-cobra-n-1 logo.
+- .bt-clan-jade-falcon-n-1 logo.
+- .bt-clan-jade-falcon-n-2 logo.
+- .bt-clan-jade-falcon-n-3 logo.
+- .bt-clan-jade-falcon-n-4 logo.
+- .bt-clan-mongoose-n-1 logo.
+- .bt-clan-mongoose-n-2 logo.
+- .bt-clan-seafox logo.
+- .bt-classic-battletech-mech-n-1 logo.
+- .bt-classic-battletech-mech-n-2 logo.
+- .bt-escorpion-imperio-n-1 logo.
+- .bt-escorpion-imperio-n-2 logo.
+- .bt-escorpion-imperio-n-3 logo.
+- .bt-escorpion-imperio-n-4 logo.
+- .bt-federated-commonwealth-n-1 logo.
+- .bt-gray-death-legion-n-2 logo.
+- .bt-highlanders-n-2 logo.
+- .bt-highlanders-n-3 logo.
+- .bt-highlanders-n-6 logo.
+- .bt-highlanders-n-7 logo.
+- .bt-highlanders-n-8 logo.
+- .bt-house-cameron-hbs-n-1 logo.
+- .bt-kurita-n-1 logo.
+- .bt-liao-n-1 logo.
+- .bt-liao-n-2 logo.
+- .bt-liao-n-3 logo.
+- .bt-magistracy-of-canopus-hbs-n-2 logo.
+- .bt-magistracy-of-canopus-hbs-n-3 logo.
+- .bt-marian-hegemony-hbs logo.
+- .bt-marian-hegemony-hbs-n-2 logo.
+- .bt-mercenary-review-and-bonding-commission-n-1 logo.
+- .bt-mercenary-review-and-bonding-commission-n-2 logo.
+- .bt-mercenary-review-and-bonding-commission-n-3 logo.
+- .bt-mercenary-review-and-bonding-commission-n-4 logo.
+- .bt-outworlds-alliance-hbs-n-1 logo.
+- .bt-outworlds-alliance-hbs-n-2 logo.
+- .bt-republic-of-the-sphere-n-1 logo.
+- .bt-republic-of-the-sphere-n-2 logo.
+- .bt-republic-of-the-sphere-n-3 logo.
+- .bt-republic-of-the-sphere-n-4 logo.
+- .bt-republic-of-the-sphere-p-1 logo.
+- .bt-republic-of-the-sphere-p-2 logo.
+- .bt-rim-worlds-republic-hbs-n-1 logo.
+- .bt-rim-worlds-republic-hbs-n-2 logo.
+- .bt-star-league-n-1 logo.
+- .bt-succession-wars-n-1 logo.
+- .bt-succession-wars-n-2 logo.
+- .bt-taurian-concordat-hbs-n-1 logo.
+- .bt-taurian-concordat-hbs-n-2 logo.
+- .bt-taurian-concordat-hbs-n-3 logo.
+- .bt-terran-hegemony-hbs-n-1 logo.
+- .bt-terran-hegemony-hbs-n-2 logo.
+- .bt-terran-hegemony-hbs-n-3 logo.
+- .bt-terran-hegemony-hbs-n-4 logo.
+- .bt-third-league-era-n-1 logo.
+- .bt-third-league-era-n-3 logo.
+- .bt-umbra-hounds-n-1 logo.
 
 ## [0.1.9] - 2018-04-01
 ### Added
@@ -65,9 +172,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - .bt-clan-ghost-bear-n-3 logo.
 - .bt-death-from-above-n-1 logo.
 - .bt-republic-of-the-sphere-n-5 logo.
-- new version of the .bt-periphery-states-n-1 logo.
+- New version of the .bt-periphery-states-n-1 logo.
 - .bt-periphery-states-n-2 logo.
-- new version of the .bt-clans logo.
+- New version of the .bt-clans logo.
 - .bt-clan-n-1 logo.
 - clans-hbs svg and clan-hbs png.
 
