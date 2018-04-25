@@ -1,5 +1,5 @@
 /*!
-* Battle Text 0.2.0 - https://github.com/stacalkas/Battle-Text
+* Battle Text 0.2.1 - https://github.com/stacalkas/Battle-Text
 * License - An extension of the Font Awesome Free License https://fontawesome.com/license (Fonts: SIL OFL 1.1, Code: MIT License)
 */
 .bt-aerospace-n-1 {
@@ -482,6 +482,26 @@
   color: white;
 }
 
+.bt-crescent-hawks-n-1 {
+  color: #871812;
+}
+
+.bt-crescent-hawks-n-2 {
+  color: white;
+}
+
+.bt-crescent-hawks-n-3 {
+  color: #de4207;
+}
+
+.bt-crescent-hawks-n-4 {
+  color: #edd363;
+}
+
+.bt-crescent-hawks-n-5 {
+  color: #33569b;
+}
+
 .bt-dark-age-n-1 {
   color: purple;
 }
@@ -567,7 +587,39 @@
 }
 
 .bt-free-rasalhague-republic-n-1 {
+  color: #a43333;
+}
+
+.bt-free-rasalhague-republic-n-2 {
+  color: #629c48;
+}
+
+.bt-free-rasalhague-republic-n-3 {
+  color: #bd87c1;
+}
+
+.bt-free-rasalhague-republic-n-4 {
+  color: #9196c8;
+}
+
+.bt-free-rasalhague-republic-hbs-n-1 {
   color: #00b1ec;
+}
+
+.bt-free-worlds-league-n-1 {
+  color: #cac5e7;
+}
+
+.bt-free-worlds-league-n-2 {
+  color: #4577b0;
+}
+
+.bt-free-worlds-league-n-3 {
+  color: #a762a0;
+}
+
+.bt-free-worlds-league-n-4 {
+  color: #692372;
 }
 
 .bt-gray-death-legion-n-1 {
@@ -670,6 +722,30 @@
   color: #9baaaa;
 }
 
+.bt-magistracy-of-canopus-n-1 {
+  color: #979ccc;
+}
+
+.bt-magistracy-of-canopus-n-2 {
+  color: white;
+}
+
+.bt-magistracy-of-canopus-n-3 {
+  color: #ebe819;
+}
+
+.bt-magistracy-of-canopus-n-4 {
+  color: #3ca953;
+}
+
+.bt-magistracy-of-canopus-n-5 {
+  color: #0e755e;
+}
+
+.bt-magistracy-of-canopus-p-1 {
+  color: #285d6b;
+}
+
 .bt-magistracy-of-canopus-hbs-n-1 {
   color: #8dc63f;
 }
@@ -680,6 +756,30 @@
 
 .bt-magistracy-of-canopus-hbs-n-3 {
   color: #005826;
+}
+
+.bt-marian-hegemony-n-1 {
+  color: #cecfe5;
+}
+
+.bt-marian-hegemony-n-2 {
+  color: #548359;
+}
+
+.bt-marian-hegemony-n-3 {
+  color: #c8b985;
+}
+
+.bt-marian-hegemony-n-4 {
+  color: #1d589e;
+}
+
+.bt-marian-hegemony-p-1 {
+  color: #863e17;
+}
+
+.bt-marian-hegemony-p-2 {
+  color: #433b17;
 }
 
 .bt-marian-hegemony-hbs-n-1 {
@@ -746,6 +846,22 @@
   color: #4e2f2a;
 }
 
+.bt-no-guts-no-galaxy-n-1 {
+  color: #999694;
+}
+
+.bt-no-guts-no-galaxy-n-2 {
+  color: #bf9c5b;
+}
+
+.bt-no-guts-no-galaxy-n-3 {
+  color: #595942;
+}
+
+.bt-no-guts-no-galaxy-p-1 {
+  color: white;
+}
+
 .bt-northwind-highlanders-n-1 {
   color: #fff105;
 }
@@ -770,6 +886,18 @@
   color: white;
 }
 
+.bt-outworlds-alliance-n-1 {
+  color: #326136;
+}
+
+.bt-outworlds-alliance-n-2 {
+  color: #ffea8e;
+}
+
+.bt-outworlds-alliance-p-1 {
+  color: #fb5b4e;
+}
+
 .bt-outworlds-alliance-hbs-n-1 {
   color: orange;
 }
@@ -788,6 +916,18 @@
 
 .bt-periphery-states-n-3 {
   color: grey;
+}
+
+.bt-rasalhague-dominion-n-1 {
+  color: #a94846;
+}
+
+.bt-rasalhague-dominion-n-2 {
+  color: #f5ffff;
+}
+
+.bt-rasalhague-dominion-n-3 {
+  color: #7175af;
 }
 
 .bt-raven-alliance-n-1 {
@@ -860,6 +1000,14 @@
 
 .bt-rhodes-project-n-7 {
   color: #b32417;
+}
+
+.bt-rim-worlds-republic-n-1 {
+  color: #ab1414;
+}
+
+.bt-rim-worlds-republic-n-2 {
+  color: #4986cf;
 }
 
 .bt-rim-worlds-republic-hbs-n-1 {
@@ -974,6 +1122,22 @@
   color: white;
 }
 
+.bt-taurian-concordat-n-1 {
+  color: #545568;
+}
+
+.bt-taurian-concordat-n-2 {
+  color: #f1c578;
+}
+
+.bt-taurian-concordat-n-3 {
+  color: #de1d30;
+}
+
+.bt-taurian-concordat-n-4 {
+  color: #634934;
+}
+
 .bt-taurian-concordat-hbs-n-1 {
   color: #854e44;
 }
@@ -984,6 +1148,26 @@
 
 .bt-taurian-concordat-hbs-n-3 {
   color: #ff4d3e;
+}
+
+.bt-terran-hegemony-n-1 {
+  color: #f4f70e;
+}
+
+.bt-terran-hegemony-n-2 {
+  color: #96b5ea;
+}
+
+.bt-terran-hegemony-n-3 {
+  color: #7a8341;
+}
+
+.bt-terran-hegemony-n-4 {
+  color: #4e5b2d;
+}
+
+.bt-terran-hegemony-n-5 {
+  color: #5d5a5b;
 }
 
 .bt-terran-hegemony-hbs-n-1 {

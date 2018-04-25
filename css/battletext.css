@@ -3,7 +3,7 @@
  * License - https://fontawesome.com/license (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
 /*!
-* Battle Text 0.2.0 - https://github.com/stacalkas/Battle-Text
+* Battle Text 0.2.1 - https://github.com/stacalkas/Battle-Text
 * License - An extension of the Font Awesome Free License https://fontawesome.com/license (Fonts: SIL OFL 1.1, Code: MIT License)
 */
 .bt {
@@ -278,6 +278,10 @@ readers do not read off random characters that represent icons */
 
 .bt-battletech-hbs-p-1:before {
   content: "\f008";
+}
+
+.bt-battle-text:before {
+  content: "\f302";
 }
 
 .bt-black-widow-company:before {
@@ -852,6 +856,30 @@ readers do not read off random characters that represent icons */
   content: "\f326";
 }
 
+.bt-crescent-hawks:before {
+  content: "\f343";
+}
+
+.bt-crescent-hawks-n-1:before {
+  content: "\f344";
+}
+
+.bt-crescent-hawks-n-2:before {
+  content: "\f345";
+}
+
+.bt-crescent-hawks-n-3:before {
+  content: "\f346";
+}
+
+.bt-crescent-hawks-n-4:before {
+  content: "\f347";
+}
+
+.bt-crescent-hawks-n-5:before {
+  content: "\f348";
+}
+
 .bt-dark-age:before {
   content: "\f134";
 }
@@ -965,11 +993,51 @@ readers do not read off random characters that represent icons */
 }
 
 .bt-free-rasalhague-republic:before {
-  content: "\f161";
+  content: "\f362";
 }
 
 .bt-free-rasalhague-republic-n-1:before {
+  content: "\f363";
+}
+
+.bt-free-rasalhague-republic-n-2:before {
+  content: "\f364";
+}
+
+.bt-free-rasalhague-republic-n-3:before {
+  content: "\f365";
+}
+
+.bt-free-rasalhague-republic-n-4:before {
+  content: "\f366";
+}
+
+.bt-free-rasalhague-republic-hbs:before {
+  content: "\f161";
+}
+
+.bt-free-rasalhague-republic-hbs-n-1:before {
   content: "\f162";
+}
+
+.bt-free-worlds-league:before {
+  content: "\f391";
+}
+
+.bt-free-worlds-league-n-1:before {
+  content: "\f392";
+}
+
+.bt-free-worlds-league-n-2:before {
+  content: "\f393";
+}
+
+.bt-free-worlds-league-n-3:before {
+  content: "\f394";
+}
+
+.bt-free-worlds-league-n-4:before {
+  content: "\f395";
 }
 
 .bt-gray-death-legion:before {
@@ -1112,6 +1180,34 @@ readers do not read off random characters that represent icons */
   content: "\f195";
 }
 
+.bt-magistracy-of-canopus:before {
+  content: "\f367";
+}
+
+.bt-magistracy-of-canopus-n-1:before {
+  content: "\f368";
+}
+
+.bt-magistracy-of-canopus-n-2:before {
+  content: "\f369";
+}
+
+.bt-magistracy-of-canopus-n-3:before {
+  content: "\f370";
+}
+
+.bt-magistracy-of-canopus-n-4:before {
+  content: "\f371";
+}
+
+.bt-magistracy-of-canopus-n-5:before {
+  content: "\f372";
+}
+
+.bt-magistracy-of-canopus-p-1:before {
+  content: "\f373";
+}
+
 .bt-magistracy-of-canopus-hbs:before {
   content: "\f196";
 }
@@ -1126,6 +1222,34 @@ readers do not read off random characters that represent icons */
 
 .bt-magistracy-of-canopus-hbs-n-3:before {
   content: "\f199";
+}
+
+.bt-marian-hegemony:before {
+  content: "\f379";
+}
+
+.bt-marian-hegemony-n-1:before {
+  content: "\f380";
+}
+
+.bt-marian-hegemony-n-2:before {
+  content: "\f381";
+}
+
+.bt-marian-hegemony-n-3:before {
+  content: "\f382";
+}
+
+.bt-marian-hegemony-n-4:before {
+  content: "\f383";
+}
+
+.bt-marian-hegemony-p-1:before {
+  content: "\f384";
+}
+
+.bt-marian-hegemony-p-2:before {
+  content: "\f385";
 }
 
 .bt-marian-hegemony-hbs:before {
@@ -1228,6 +1352,26 @@ readers do not read off random characters that represent icons */
   content: "\f256";
 }
 
+.bt-no-guts-no-galaxy:before {
+  content: "\f386";
+}
+
+.bt-no-guts-no-galaxy-n-1:before {
+  content: "\f387";
+}
+
+.bt-no-guts-no-galaxy-n-2:before {
+  content: "\f388";
+}
+
+.bt-no-guts-no-galaxy-n-3:before {
+  content: "\f389";
+}
+
+.bt-no-guts-no-galaxy-p-1:before {
+  content: "\f390";
+}
+
 .bt-northwind-highlanders:before {
   content: "\f212";
 }
@@ -1256,6 +1400,22 @@ readers do not read off random characters that represent icons */
   content: "\f218";
 }
 
+.bt-outworlds-alliance:before {
+  content: "\f358";
+}
+
+.bt-outworlds-alliance-n-1:before {
+  content: "\f359";
+}
+
+.bt-outworlds-alliance-n-2:before {
+  content: "\f360";
+}
+
+.bt-outworlds-alliance-p-1:before {
+  content: "\f361";
+}
+
 .bt-outworlds-alliance-hbs:before {
   content: "\f219";
 }
@@ -1282,6 +1442,22 @@ readers do not read off random characters that represent icons */
 
 .bt-periphery-states-n-3:before {
   content: "\f223";
+}
+
+.bt-rasalhague-dominion:before {
+  content: "\f396";
+}
+
+.bt-rasalhague-dominion-n-1:before {
+  content: "\f397";
+}
+
+.bt-rasalhague-dominion-n-2:before {
+  content: "\f398";
+}
+
+.bt-rasalhague-dominion-n-3:before {
+  content: "\f399";
 }
 
 .bt-raven-alliance:before {
@@ -1366,6 +1542,18 @@ readers do not read off random characters that represent icons */
 
 .bt-rhodes-project-n-7:before {
   content: "\f242";
+}
+
+.bt-rim-worlds-republic:before {
+  content: "\f349";
+}
+
+.bt-rim-worlds-republic-n-1:before {
+  content: "\f350";
+}
+
+.bt-rim-worlds-republic-n-2:before {
+  content: "\f351";
 }
 
 .bt-rim-worlds-republic-hbs:before {
@@ -1508,6 +1696,26 @@ readers do not read off random characters that represent icons */
   content: "\f278";
 }
 
+.bt-taurian-concordat:before {
+  content: "\f374";
+}
+
+.bt-taurian-concordat-n-1:before {
+  content: "\f375";
+}
+
+.bt-taurian-concordat-n-2:before {
+  content: "\f376";
+}
+
+.bt-taurian-concordat-n-3:before {
+  content: "\f377";
+}
+
+.bt-taurian-concordat-n-4:before {
+  content: "\f378";
+}
+
 .bt-taurian-concordat-hbs:before {
   content: "\f279";
 }
@@ -1522,6 +1730,30 @@ readers do not read off random characters that represent icons */
 
 .bt-taurian-concordat-hbs-n-3:before {
   content: "\f282";
+}
+
+.bt-terran-hegemony:before {
+  content: "\f352";
+}
+
+.bt-terran-hegemony-n-1:before {
+  content: "\f353";
+}
+
+.bt-terran-hegemony-n-2:before {
+  content: "\f354";
+}
+
+.bt-terran-hegemony-n-3:before {
+  content: "\f355";
+}
+
+.bt-terran-hegemony-n-4:before {
+  content: "\f356";
+}
+
+.bt-terran-hegemony-n-5:before {
+  content: "\f357";
 }
 
 .bt-terran-hegemony-hbs:before {
@@ -1598,10 +1830,6 @@ readers do not read off random characters that represent icons */
 
 .bt-word-of-blake-p-1:before {
   content: "\f301";
-}
-
-.bt-battle-text:before {
-  content: "\f302";
 }
 
 .sr-only {

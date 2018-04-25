@@ -9,18 +9,88 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 Add
-- New version of terran-hegemony logo.
-- New version of outworlds-alliance logo.
 - New version of house-cameron logo.
-- New version of magistracy-of-canopus logo.
-- New version of taurian-concordat logo.
-- New version of marian-hegemony logo.
-- New version of rim-worlds-republic logo.
 - Basic getting started guide to readme.
 
 Fix
-- .bt-escorpion-imperio logo.
 - liao illustrator file is broken and won't save for some reason...
+
+## [0.2.1] - 2018-04-24
+### Added
+- .bt-crescent-hawks logo.
+- .bt-crescent-hawks-n-1 logo.
+- .bt-crescent-hawks-n-2 logo.
+- .bt-crescent-hawks-n-3 logo.
+- .bt-crescent-hawks-n-4 logo.
+- .bt-crescent-hawks-n-5 logo.
+- crescent-hawks svg and png
+- .bt-free-worlds-league logo.
+- .bt-free-worlds-league-n-1 logo.
+- .bt-free-worlds-league-n-2 logo.
+- .bt-free-worlds-league-n-3 logo.
+- .bt-free-worlds-league-n-4 logo.
+- free-worlds-league svg and png
+- .bt-no-guts-no-galaxy logo.
+- .bt-no-guts-no-galaxy-n-1 logo.
+- .bt-no-guts-no-galaxy-n-2 logo.
+- .bt-no-guts-no-galaxy-n-3 logo.
+- no guts no galaxy svg and png
+- .bt-rasalhague-dominion logo.
+- .bt-rasalhague-dominion-n-1 logo.
+- .bt-rasalhague-dominion-n-2 logo.
+- .bt-rasalhague-dominion-n-3 logo.
+- rasalhague dominion svg and png
+- New version of .bt-free-rasalhague-republic logo.
+- New version of .bt-free-rasalhague-republic-n-1 logo.
+- New version of .bt-free-rasalhague-republic-n-2 logo.
+- New version of .bt-free-rasalhague-republic-n-3 logo.
+- New version of .bt-free-rasalhague-republic-n-4 logo.
+- New version of free rasalhague republic svg and png
+- New version of .bt-magistracy-of-canopus logo.
+- New version of .bt-magistracy-of-canopus-n-1 logo.
+- New version of .bt-magistracy-of-canopus-n-2 logo.
+- New version of .bt-magistracy-of-canopus-n-3 logo.
+- New version of .bt-magistracy-of-canopus-n-4 logo.
+- New version of .bt-magistracy-of-canopus-n-5 logo.
+- New version of .bt-magistracy-of-canopus-p-1 logo.
+- New version of magistracy of canopus svg and png
+- New version of .bt-marian-hegemony logo.
+- New version of .bt-marian-hegemony-n-1 logo.
+- New version of .bt-marian-hegemony-n-2 logo.
+- New version of .bt-marian-hegemony-n-3 logo.
+- New version of .bt-marian-hegemony-n-4 logo.
+- New version of .bt-marian-hegemony-p-1 logo.
+- New version of .bt-marian-hegemony-p-2 logo.
+- New version of marian hegemony svg and png
+- New version of .bt-outworlds-alliance logo.
+- New version of .bt-outworlds-alliance-n-1 logo.
+- New version of .bt-outworlds-alliance-n-2 logo.
+- New version of .bt-outworlds-alliance-p-1 logo.
+- New version of outworlds alliance svg and png
+- New version of .bt-rim-worlds-republic logo.
+- New version of .bt-rim-worlds-republic-n-1 logo.
+- New version of .bt-rim-worlds-republic-n-2 logo.
+- New version of rim worlds republic svg and png
+- New version of .bt-taurian-concordat logo.
+- New version of .bt-taurian-concordat-n-1 logo.
+- New version of .bt-taurian-concordat-n-2 logo.
+- New version of .bt-taurian-concordat-n-3 logo.
+- New version of .bt-taurian-concordat-n-4 logo.
+- New version of taurian concordat svg and png
+- New version of .bt-terran-hegemony logo.
+- New version of .bt-terran-hegemony-n-1 logo.
+- New version of .bt-terran-hegemony-n-2 logo.
+- New version of .bt-terran-hegemony-n-3 logo.
+- New version of .bt-terran-hegemony-n-4 logo.
+- New version of .bt-terran-hegemony-n-5 logo.
+- New version of terran hegemony svg and png
+
+### Changed
+- .bt-free-rasalhague-republic logo to .bt-free-rasalhague-republic-hbs logo.
+- .bt-free-rasalhague-republic-n-1 logo to .bt-free-rasalhague-republic-hbs-n-1 logo.
+
+### Fixed
+- .bt-escorpion-imperio logo.
 
 ## [0.2.0] - 2018-04-17
 ### Added
