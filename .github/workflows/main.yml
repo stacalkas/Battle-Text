@@ -1,0 +1,7 @@
+- name: HTMLProofer
+  uses: chabad360/htmlproofer@v1.1
+  with:
+    # The directory to scan
+    directory: 
+    # HTMLProofer options
+    arguments: # optional
